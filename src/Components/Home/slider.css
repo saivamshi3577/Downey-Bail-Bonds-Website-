@@ -1,0 +1,679 @@
+.source {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+
+.hello {
+    
+    position: relative;
+    z-index: 21;
+    top: -800px;
+    margin-top: -80px;
+ 
+}
+.carousel-inner{
+    background-image: cover;
+}
+
+.usa {
+    color: white;
+    animation: fadeInTop 1s ease-in;
+    /* margin-left: -65%; */
+    margin-left: 11.5%;
+    margin-top: 3%;
+}
+
+.carousel-inner {
+    position: relative;
+    z-index: -1;
+}
+
+.expertise {
+  
+  
+    font-weight: bold;
+    font-size: 38px;
+    color: white;
+    margin-left: 9.5%;
+    width: 40%;
+    
+}
+.expertise1 {
+  
+  
+    font-weight: bold;
+    font-size: 38px;
+    color: white;
+    margin-left: 9.5%;
+    width: 50%;
+    margin-top: 2%;
+    
+}
+.expertise2 {
+  
+  
+    font-weight: bold;
+    font-size: 38px;
+    color: white;
+    margin-left: 9.5%;
+    width: 50%;
+    margin-top: 2%;
+ 
+ 
+}
+.logo{
+    display: flex;
+     flex-direction: column;
+     margin: 2%;
+    animation: fadeInLeft 7s ease-in-out;
+}
+
+
+#scroll {
+
+    filter: brightness(30%);
+    
+}
+
+.Our {
+    color: goldenrod;
+    
+    font-size: 25px;
+    /* margin-left: -43%; */
+    margin-top: -5%;
+    font-weight: bold;
+}
+.inner-our{
+text-decoration: underline;
+
+}
+
+.buttonstyling {
+    /* background-color: rgb(223, 176, 56); */
+    
+    /* letter-spacing: 2px; */
+    /* height: fit-content; */
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 400;
+    /* margin: 3%; */
+    display: flex;
+    justify-content: space-evenly;
+    animation: FadeUp 1s linear;
+    width: 50%;
+    margin-left: 9%;
+    margin-top: 4%;
+}
+
+
+
+.me {
+
+    filter: brightness(190%);
+    margin-top: -1100px;
+    position: relative;
+    z-index: 1;
+   
+
+}
+
+.animation1 {
+    position: relative;
+    z-index: 1;
+    top: -80px;
+/* 
+    margin-left: -5%; */
+    animation: harshita 1s ease forwards;
+    filter: brightness(190%);
+    margin-top: -1100px;
+    position: relative;
+    z-index: 1;
+
+}
+
+
+.animation2 {
+    position: relative;
+    z-index: 1;
+    /* left: -78px; */
+    top: -40px;
+    animation: bottomtotop 3s ease forwards;
+    filter: brightness(190%);
+    margin-top: -1100px;
+    position: relative;
+    z-index: 1;
+    margin-left: -5%;
+}
+
+.animation3 {
+    filter: brightness(200%);
+    position: relative;
+    left: 15px;
+    animation: totop2 2s ease forwards;
+    
+}
+
+.animation4 {
+    filter: brightness(200%);
+    position: relative;
+    left: -25px;
+    top: 25px;
+    animation: totop06 3s ease forwards;
+   
+}
+
+.animation5 {
+    filter: brightness(200%);
+    animation: totop 2s ease forwards;
+
+}
+.animation6{
+    left: -30px;
+    top: 30px;
+    position: relative;
+    z-index: 1;
+    animation: totop1 1s ease forwards;
+}
+
+.lowerimage {
+    position: relative;
+    z-index: 1;
+    
+    top: -200px;
+    /* margin-left: -85%; */
+}
+
+.rightimage {
+    position: relative;
+    z-index: 1;
+    top: -800px;
+    /* left: 40%; */
+    margin-left: 80%;
+}
+
+.contactus {
+    background-image: linear-gradient(to top right, blue,darkblue);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 6%;
+    padding-right: 6%;
+    color: white;
+
+}
+
+.videodemo {
+    background-image: linear-gradient(to bottom right,yellow,rgb(167, 42, 42));
+    margin-right: 300px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 6%;
+    padding-right: 6%;
+    color: white;
+    
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+}
+
+.carousel-control-prev-icon {
+    margin-right: 100px;
+}
+
+.carousel-control-next-icon {
+    margin-left: 100px;
+
+}
+.animi {
+   margin: 2%;
+    animation: fadeInLeft 4s ease-in-out;
+    margin-left: 11%;
+}
+
+
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        color: transparent;
+        transform: translateZ(500px);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.animi1 {
+    animation: fadeInRight 1s ease-in;
+    /* margin: 2%; */
+    
+}
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        color: transparent;
+        transform: translateY(300px);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        color: transparent;
+        transform: translateY(-300px);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+@keyframes fadeInTop {
+    from {
+        opacity: 0;
+        color: transparent;
+        transform: translateY(-1200px);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+@keyframes FadeUp {
+    from {
+        opacity: 0;
+        color: transparent;
+        transform: translateY(1200px);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+@keyframes harshita {
+    0%{
+        transform: translateY(-300px);
+        opacity: 0;
+    }
+    
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes bottomtotop {
+    0%{
+        transform: translateY(300px);
+        opacity: 0;
+    }
+    
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+
+}
+@keyframes totop {
+    0%{
+        transform: translateY(300px);
+        opacity: 0;
+    }
+    
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+
+}
+@keyframes totop1 {
+    0%{
+        transform: translateY(300px);
+        opacity: 0;
+    }
+    
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+
+}
+@keyframes totop06 {
+    0%{
+        transform: translateY(300px);
+        opacity: 0;
+    }
+    
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+
+}
+@keyframes totop2 {
+    0%{
+        transform: translateY(300px);
+        opacity: 0;
+    }
+    
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+
+}
+
+
+
+/* @media screen and (max-width:2560px) {
+    .carousel{
+      height: 1300px;
+    }
+    .hello {
+      margin-top: 0px;
+    }
+    .Our {
+      margin-top: 0px;
+    }
+    .expertise {
+      font-size: 40px;
+      
+    }
+  
+    .Explore {
+      letter-spacing: 1px;
+      height: 45px;
+      font-size: 25px;
+      padding: 2%;
+    }
+  } */
+@media screen and (max-width:1550px) {
+    .carousel {
+        height: 700px;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .carousel {
+        height: 650px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .carousel {
+        height: 700px;
+    }
+
+    .expertise{
+        font-size: 30px;
+      
+    }
+
+    .animi1 {
+        width: 600px;
+    }
+
+    .animi {
+        margin-top: 50px;
+    }
+
+    .hello {
+        margin-top: 200px;
+        width: 500px;
+        left: 20px;
+    }
+
+    .Our {
+        font-size: 16px;
+    }
+    
+
+    .me {
+
+        filter: brightness(190%);
+        margin-top: -700px;
+        position: relative;
+        z-index: 1;
+
+    }
+
+    .rightimage {
+        top: -600px;
+        width: 250px;
+
+    }
+
+    .animation1 {
+        width: 120px;
+    }
+
+    .animation2 {
+        width: 120px;
+    }
+
+    .animation3 {
+        width: 120px;
+    }
+
+    .animation4 {
+        width: 70px;
+    }
+
+    .animation5 {
+        width: 120px;
+    }
+
+    .animation6 {
+        width: 50px;
+    }
+
+    .carousel-control-prev-icon {
+        margin-top: 10px;
+        width: 20px;
+    }
+
+    .carousel-control-next-icon {
+        margin-top: 10px;
+        width: 20px;
+    }
+    .buttonstyling{
+        font-size: 12px;
+        padding: 0%;
+      
+    }
+    .contactus {
+        
+       padding: 10px;
+        color: white;
+    
+    }
+    .videodemo{
+        padding: 10px;
+    }
+
+
+}
+
+@media screen and (max-width:1100px) {
+    .carousel {
+        height: 462px;
+    }
+
+   
+
+    .carousel-inner {
+        margin-top: 110px;
+    }
+
+   
+    .carousel-control-next-icon {
+        margin-left: 70px;
+    }
+
+}
+
+@media screen and (max-width:769px) {
+    .carousel {
+        height: 320px;
+    }
+
+    .hello {
+        margin-top: 290px;
+    }
+
+    .Our {
+        font-size: 15px;
+    }
+
+    .expertise {
+        font-size: 18px;
+      
+    }
+
+   
+
+    .carousel-control-prev-icon {
+        margin-right: 65px;
+    }
+
+    .me {
+        margin-top: -550px;
+    }
+
+    .rightimage {
+        top: -490px;
+        width: 250px;
+
+    }
+
+    .lowerimage {
+        margin-top: 70px;
+    }
+
+    .animation1 {
+        width: 80px;
+    }
+
+    .animation2 {
+        width: 80px;
+        left: -10px;
+    }
+
+    .animation3 {
+        width: 80px;
+    }
+
+    .animation4 {
+        width: 40px;
+    }
+
+    .animation5 {
+        width: 80px;
+    }
+
+    .animation6 {
+        width: 30px;
+    }
+}
+@media screen and (max-width: 650px){
+    .animation1{
+        display: none;
+    }
+    .animation2{
+        display: none;
+    }
+    .animation3{
+        display: none;
+    }
+    .animation4{
+        display: none;
+    }
+  .animation6{
+        display: none;
+    };
+    .animation5{
+        display: none;
+    }.hello{
+        margin-top: 430px;
+    }
+    
+}
+
+@media screen and (max-width: 623px) {
+    .Our {
+        margin-top: 190px;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 511px){
+    
+    .Our{
+        margin: 0%;
+    }
+    .usa{
+        margin: 0%;
+    }
+    .buttonstyling{
+        padding: 0;
+        margin: 0%;
+    }
+    .contactus{
+        padding: 0;
+        margin: 0%;
+    }
+    .videodemo{
+        padding: 0;
+        margin: 0%;
+        margin-right: 370px;
+    }
+    .hello{
+        margin-top: 450px;
+    }
+
+    
+}
+@media screen and (max-width: 450px){
+    .hello{
+        margin-top: 475px;
+    }
+    
+}
+@media screen and (max-width: 400px){
+    
+    .expertise{
+        font-size: 10px;
+    }
+    .hello{
+        margin-top: 500px;
+        margin-left: -2px;
+    }
+    
+}
+@media screen and (max-width: 351px){
+    
+    .expertise{
+        font-size: 10px;
+    }
+    .hello{
+        margin-top: 520px;
+        margin-left: -2px;
+    }
+    .inner-our{
+        font-size: 8px;
+    }
+    .Our{
+        font-size: 8px;
+    }
+    
+} 

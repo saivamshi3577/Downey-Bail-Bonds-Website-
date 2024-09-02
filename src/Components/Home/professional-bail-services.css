@@ -1,0 +1,179 @@
+.Bail-services-headings{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    overflow: hidden;
+}
+/* .profcontainer{
+    margin-top: -40%;
+} */
+.bail-headings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Bail-services-headings .bailServices{
+    color: #fe00c5;
+}
+.Bail-services-animation{
+    position: absolute;
+    margin-left: 80%;
+}
+.Bail-services-animation img{
+    animation: spin 10s ease infinite;
+}
+.Bail-services-headings .divider{
+    background-image: url(../Photos/divider-centered.png);
+    width: 90px;
+    height: 5px;
+    margin: 30px auto 0;
+}
+.bail-servcies-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.vertical-line-3131{
+    width: .8px;
+    height: 25vh;
+    background-color: black;
+}
+.vertical-line-3131-2{
+    width: .8px;
+    height: 25vh;
+    background-color: black;
+}
+.servcies-cards{
+    width: 20%;
+    min-width: 200px;
+    height: inherit;
+    padding: 20px;
+    margin: .5%;
+    border-radius: 5px;
+}
+.servcies-cards:hover{
+    box-shadow: 0px 10px 10px 1px gray ;
+    animation: moveTop .5s ease forwards;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.servcies-cards .inner-services-cards .icons::before{
+    
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: #fff1cc;
+    content: "";
+    
+}
+.servcies-cards:hover .icons img{
+    transform: rotateY(-360deg);
+}
+.icons img{
+ margin-left: -24px;  
+ transition: transform .5s ease;
+}
+.cards-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.desc-h2-3131{
+text-align: center;
+font-weight: 700;
+}
+.desc-p-3131{
+    text-align: center;
+    line-height: 31px;
+}
+.desc-a-3131{
+    text-align: center;
+}
+.desc-a-3131 a{
+    font-weight: bold;
+    color: #ff4200;
+}
+
+
+/**************************animation *********************/
+
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes moveTop {
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-20px);
+    }
+}
+
+
+
+/***************media**********************************/
+@media screen and (max-width:1023px) {
+    .servcies-cards{
+        width: 400px;
+    }
+    .vertical-line-3131-2{
+        display: none;
+    }
+    .Bail-services-animation img{
+        display: none;
+    }
+}
+@media screen and (max-width:900px){
+    .servcies-cards{
+        width: 300px;
+    }
+    .vertical-line-3131-2{
+        display: none;
+    }
+}
+@media screen and (max-width: 693px) {
+   
+    .servcies-cards{
+        width: 400px;
+    }
+    .vertical-line-3131{
+        display: none;
+    }
+    .desc-h2-3131 br{
+        display: none;
+    }
+}
+@media screen and (max-width:600px) {
+    .Bail-p-31{
+        text-align: center;
+        font-size: 14px;
+    }
+    .Best-servcies{
+        text-align: center;
+        font-size: 24px;
+    }
+    .bailServices{
+        text-align: center;
+        font-size: 16px;
+    }
+    .desc-h2-3131{
+        font-size: 20px;
+    }
+    .desc-p-3131{
+        font-size: 16px;
+    }
+}

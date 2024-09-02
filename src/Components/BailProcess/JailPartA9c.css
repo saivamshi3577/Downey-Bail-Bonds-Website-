@@ -1,0 +1,190 @@
+
+.outer9a{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+    background-image: url('../Photos/Jail.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+  
+}
+.serial12a{
+    display: flex;
+    flex-flow: row;
+
+}
+.leftmaina{
+    display: grid;
+    align-items: stretch;
+    justify-items: stretch;
+    /* height: 400px; */
+    /* background-color: blue; */
+    margin-right: 2%;
+    width: 43%;
+    padding-top: 3%;
+    padding-left: 2%;
+    background-image: url('../Photos/handcups.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    /* height: 100%; */
+    border-radius: 40px;
+    border: 2px solid goldenrod;
+    overflow: hidden;
+}
+.leftmainsuba{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    display: grid;
+    align-items: stretch;
+    justify-items: stretch;
+    /* backdrop-filter: blur(5px); */
+   
+}
+.rightmaina{
+    display: grid;
+    align-items: stretch;
+    justify-items: stretch;
+    /* height: 400px; */
+    background-color: aqua;
+    margin-left: 2%;
+    width: 57%;
+    /* padding-top: 2%; */
+    /* padding-right: 9%; */
+    padding-left: 1%;
+    background-image: url('../Photos/Background.png');
+    border-radius: 20px;
+    border: 2px solid goldenrod;
+   
+}
+.rightcontenta{
+    display: flex;
+    flex-flow: row;
+    margin-bottom: 3.5%;
+}
+.boxforward{
+    padding-top: 4%;
+}
+.goldenrod9a{
+    color: #FFAE00;
+    font-size:5vi;
+    font-weight: 700;
+    font-family: Cormorant Garamond;
+}
+.icon9a{
+    width: 9vw;
+}
+.righttext9a{
+    font-family:Lora;
+    color: white;
+    font-weight: 400;
+    font-size: 400;
+    line-height: 23.04px;
+}
+.rightcontenttext0a{
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.lefttxt1a{
+    font-weight: 700;
+    font-family: Lora;
+    font-size: 40px;
+    line-height: 51.2px;
+    color: #FFAE00;
+}
+.fullwidtha{
+    display: flex;
+    flex-flow: row;
+    /* width: 100%; */
+    /* background-color: red; */
+}
+.lefthalf9a{
+    width: 80%;
+    /* background-color: blue; */
+}
+.righthalf9a{
+    /* background-color: aqua; */
+    width: 20%;
+    height: 100%;
+    border-radius: 0px 20px 20px 0px;
+}
+.topicona{
+    height: 20%;
+    /* background-color: red; */
+    border-radius: 0px 20px 0px 0px;
+    background-image: url('../Photos/image\ 28.png');
+    background-repeat: no-repeat;
+}
+.middlespacea{
+    flex-grow: 1;
+    height: 60%;
+}
+.bottomicona{
+    height: 20%;
+    /* background-color: red; */
+    border-radius: 0px 0px 20px 0px;
+    background-image: url('../Photos/image\ 29.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+      align-items: flex-end;
+      background-position: bottom;
+      
+}
+.starmargin9a{
+    margin-left: 5px;
+    margin-right: 7px;
+    width: 20px;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 600px) {
+    .serial12a{
+        display: flex;
+        flex-flow: column;
+    }
+    .leftmaina {
+        width: 91%;
+        padding-bottom: 2%;
+    }
+    .rightmaina{
+        width: 96%;
+        margin-top: 3vh;
+    }
+    /* .goldenrod9{
+        font-size: 2vi;
+    } */
+    .lefttxt1a {
+        font-weight: 700;
+        font-family: Lora;
+        font-size: 19px;
+        line-height: 35.2px;
+        color: #FFAE00;
+    }
+    .leftmaina {
+        padding-left: 7%;
+    }
+    .goldenrod9a {
+        color: #FFAE00;
+        font-size: 5vi;
+        font-weight: 700;
+        font-family: Cormorant Garamond;
+        width: 83vw;
+    }
+    /* .leftmainsub{
+        backdrop-filter: blur(3px);
+    } */
+}
+.totaljail9a{
+    overflow: hidden;
+}

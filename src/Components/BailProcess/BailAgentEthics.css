@@ -1,0 +1,871 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+
+.Bail-Agent-main-div {
+    background-color: #fff;
+}
+
+.Bail-agent-div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-inline: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-part-in-subpart-skk {
+    width: 70%;
+    overflow: hidden;
+
+}
+
+.Bail-Agent-heading {
+    color: #081245;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 36px;
+    box-sizing: border-box;
+
+}
+
+.Bail-Agent-paragraph {
+    font-size: 16px;
+    font-family: "Lora", serif;
+    box-sizing: border-box;
+
+}
+
+.Bail-Agent-image-div {
+    width: 30%;
+}
+
+
+.Bail-image-box-div {
+    position: relative;
+    padding: 10px 0px 0 0;
+    overflow: hidden;
+}
+
+.images-kkp {
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 10px;
+    height: 100%;
+    width: 95%;
+}
+
+.Co-Signing-bail-div {
+    background-color: #fff;
+    padding: 2%;
+    margin-bottom: 3%;
+}
+
+.Co-Signing-bail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4%;
+}
+
+.Co-Signing-bail-heading {
+    color: #081245;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 36px;
+    box-sizing: border-box;
+
+}
+
+.Co-Signing-bail-paragraph {
+
+    font-size: 16px;
+    font-family: "Lora", serif;
+    box-sizing: border-box;
+
+}
+
+.Co-Signing-bail-2nd-para {
+    font-size: 16px;
+    font-family: "Lora", serif;
+    padding-left: 4%;
+    box-sizing: border-box;
+   
+}
+
+.Co-Signing-bail-para {
+    font-size: 16px;
+    font-family: "Lora", serif;
+    box-sizing: border-box;
+    padding-top: 3%;
+}
+
+.Co-Signing-image-div {
+    width: 30%
+}
+
+.Bail-image-box-div {
+    margin-top: 18%;
+}
+
+.image-tm-bsk-2 {
+    overflow: hidden;
+}
+
+.images-tm-bsk-2 {
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 10px;
+    height: 100%;
+    width: 95%;
+    margin-top: 10%;
+    box-sizing: border-box;
+}
+
+.line-through-kk {
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    position: absolute;
+    left: 45px;
+    right: 8px;
+    top: 0;
+    margin-bottom: 0%;
+    bottom: 0px;
+    border: 3px solid goldenrod;
+    content: "";
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+    animation: fadeUp 1s ease;
+}
+
+.image-box-tm-bsk-2 {
+    position: relative;
+    padding: 0px 0px 0 0;
+}
+
+.line-through-2-kk {
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    position: absolute;
+    left: 50px;
+    right: 7px;
+    opacity: unset;
+    bottom: -20px;
+    border: 3px solid goldenrod;
+    content: "";
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.bail-agent-hr-line-div {
+    overflow: hidden;
+}
+
+.bail-agent-hr-line {
+    box-sizing: border-box;
+}
+
+.Lower-images-div .logos-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 2%; */
+}
+
+.images-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ImageKK {
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+}
+
+.patnersKK-heading {
+    font-family: "Cormorant Garamond";
+    font-weight: 700;
+    font-size: 2.4rem;
+    margin-inline-start: 0.9%;
+    margin-inline-end: 0.9%;
+    color: #161D27;
+}
+
+.logos-images {
+    width: 80%;
+}
+
+
+
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+/* media queries */
+
+@media (max-width:1440) {
+
+    .Co-Signing-bail-heading {
+        font-size: 22px;
+    }
+
+    .Bail-Agent-paragraph {
+        font-size: 17px !important;
+    }
+
+    .Co-Signing-bail-paragraph {
+        font-size: 17px;
+    }
+
+    .Co-Signing-bail-2nd-para {
+        font-size: 17px;
+    }
+
+    .Co-Signing-bail-para {
+        font-size: 17px;
+    }
+
+    .images-tm-bsk-2 {
+        height: 100%;
+        width: 95%;
+        margin-top: 24%;
+    }
+}
+
+@media (max-width:1305px) {
+    .Bail-image-box-div {
+        margin-top: 18%;
+    }
+
+    .images-tm-bsk-2 {
+        margin-top: 18%;
+    }
+
+    .Co-Signing-bail-heading {
+        font-size: 28px;
+    }
+
+    .Bail-Agent-paragraph {
+        font-size: 16px;
+    }
+
+    .Co-Signing-bail-paragraph {
+        font-size: 15px;
+    }
+
+    .Co-Signing-bail-2nd-para {
+        font-size: 15px;
+    }
+
+    .Co-Signing-bail-para {
+        font-size: 15px;
+    }
+
+    .images-tm-bsk-2 {
+        height: 100%;
+        width: 95%;
+        margin-top: 24%;
+    }
+}
+
+@media (max-width:1233px) {
+    .Bail-image-box-div {
+        margin-top: 18%;
+    }
+
+    .images-tm-bsk-2 {
+        margin-top: 18%;
+    }
+
+    .Co-Signing-bail-heading {
+        font-size: 25px;
+    }
+
+    .Bail-Agent-paragraph {
+        font-size: 14px;
+    }
+
+    .Co-Signing-bail-paragraph {
+        font-size: 14px;
+    }
+
+    .Co-Signing-bail-2nd-para {
+        font-size: 14px;
+    }
+
+    .Co-Signing-bail-para {
+        font-size: 14px;
+    }
+
+    .images-tm-bsk-2 {
+        height: 100%;
+        width: 95%;
+        margin-top: 24%;
+    }
+}
+
+@media (max-width:1062px) {
+    .Bail-image-box-div {
+        margin-top: 14%;
+    }
+
+    .images-tm-bsk-2 {
+        margin-top: 14%;
+    }
+
+    .line-through-2-kk {
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+
+    .line-through-kk {
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+
+    .images-tm-bsk-2 {
+        border-top-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+    }
+
+    .images-tm-bsk {
+        border-top-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+    }
+
+    .Co-Signing-bail-heading {
+        font-size: 21px;
+    }
+
+    .Bail-Agent-paragraph {
+        font-size: 13px;
+    }
+
+    .Co-Signing-bail-paragraph {
+        font-size: 13px;
+    }
+
+    .Co-Signing-bail-2nd-para {
+        font-size: 13px;
+    }
+
+    .Co-Signing-bail-para {
+        font-size: 13px;
+    }
+
+    .images-tm-bsk-2 {
+        height: 100%;
+        width: 90%;
+        margin-top: 24%;
+    }
+}
+
+@media (max-width:1025px) {
+    .Co-Signing-bail-heading {
+        font-size: 26px;
+    }
+
+    .Bail-Agent-paragraph {
+        font-size: 12px;
+    }
+
+    .Co-Signing-bail-paragraph {
+        font-size: 11px;
+    }
+
+    .Co-Signing-bail-2nd-para {
+        font-size: 12px;
+    }
+
+    .Co-Signing-bail-para {
+        font-size: 12px;
+    }
+
+    .image-box-tm-bsk-2 {
+        margin-top: 18%;
+    }
+
+    .images-tm-bsk-2 {
+        height: 100%;
+        width: 95%;
+        margin-top: 10%;
+
+    }
+
+    .images-kkp {
+        width: 95%;
+    }
+
+    .line-through-2-kk {
+        left: 41px;
+        right: 4px;
+        bottom: -10px;
+    }
+
+
+}
+
+@media (max-width:970px) {
+    .Co-Signing-bail-heading {
+        font-size: 25px;
+    }
+
+    .Bail-Agent-paragraph {
+        font-size: 11px;
+    }
+
+    .Co-Signing-bail-paragraph {
+        font-size: 11px;
+    }
+
+    .Co-Signing-bail-2nd-para {
+        font-size: 11px;
+    }
+
+    .Co-Signing-bail-para {
+        font-size: 11px;
+    }
+
+    .line-through-kk {
+        bottom: -4px;
+        left: 38px;
+    }
+
+    .images-kkp {
+        width: 95%;
+    }
+
+    .images-tm-bsk-2 {
+        height: 100%;
+        width: 95%;
+        margin-top: 10%;
+    }
+
+    .image-box-tm-bsk-2 {
+        margin-top: 18%;
+    }
+
+
+}
+
+
+@media (max-width:769px) {
+    .Bail-image-box-div {
+        margin-top: 10%;
+    }
+
+    .image-box-tm-bsk-2 {
+        margin-top: 7%;
+    }
+
+    .Co-Signing-bail-heading {
+        font-size: 20px;
+    }
+
+    .Bail-Agent-heading {
+        font-size: 20px;
+    }
+
+    .Bail-Agent-paragraph {
+        font-size: 9px;
+    }
+
+    .Co-Signing-bail-paragraph {
+        font-size: 9px;
+    }
+
+    .Co-Signing-bail-2nd-para {
+        font-size: 9px;
+    }
+
+    .Co-Signing-bail-para {
+        font-size: 9px;
+    }
+
+    .Co-Signing-bail-heading {
+        font-size: 17px;
+    }
+
+    .line-through-kk {
+        border-top-right-radius: 35px;
+        border-bottom-left-radius: 35px;
+        bottom: 0px;
+    }
+
+    .line-through-2-kk {
+        border-top-right-radius: 35px;
+        border-bottom-left-radius: 35px;
+        bottom: -4px;
+        right: 12px;
+        left: 39px;
+    }
+
+    .images-tm-bsk-2 {
+        height: 100%;
+        width: 90%;
+        margin-top: 7%;
+    }
+
+    .Lower-images-div {
+        margin-bottom: 20%;
+    }
+}
+
+@media (max-width:681px) {
+    .Bail-Agent-image-div {
+        width: 28%
+    }
+
+    .Co-Signing-image-div {
+        width: 28%;
+    }
+
+    .images-tm-bsk-2 {
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+
+    }
+
+    .images-kkp {
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+
+
+    }
+
+    .line-through-2-kk {
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        left: 35px;
+        right: -30px;
+    }
+
+    .line-through-kk {
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        left: 35px;
+        right: -6px;
+    }
+
+    .Bail-image-box-div {
+        margin-top: 10%;
+    }
+
+    .images-tm-bsk-2 {
+        margin-top: 1%;
+    }
+
+    .Co-Signing-bail-heading {
+        font-size: 15px;
+    }
+
+    .Bail-Agent-heading {
+        font-size: 15px;
+    }
+
+    .Bail-Agent-paragraph {
+        font-size: 7px;
+    }
+
+    .Co-Signing-bail-paragraph {
+        font-size: 7px;
+    }
+
+    .Co-Signing-bail-2nd-para {
+        font-size: 7px;
+    }
+
+    .Co-Signing-bail-para {
+        font-size: 7px;
+    }
+
+    .Co-Signing-bail-heading {
+        font-size: 15px;
+    }
+
+    .images-tm-bsk-2 {
+        height: 100%;
+        width: 100%;
+        margin-top: 35%;
+    }
+
+    .Lower-images-div {
+        margin-bottom: 20%;
+    }
+}
+
+@media (max-width:601px) {
+    .Bail-Agent-image-div {
+        width: 28%
+    }
+
+    .Co-Signing-image-div {
+        width: 28%;
+    }
+
+    .images-tm-bsk-2 {
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+
+    }
+
+    .images-kkp {
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+
+
+    }
+
+    .line-through-2-kk {
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        left: 35px;
+        right: -30px;
+    }
+
+    .line-through-kk {
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        left: 35px;
+        right: -6px;
+    }
+
+    .Bail-image-box-div {
+        margin-top: 10%;
+    }
+
+    .images-tm-bsk-2 {
+        margin-top: 1%;
+    }
+
+    .Co-Signing-bail-heading {
+        font-size: 14px;
+    }
+
+    .Bail-Agent-heading {
+        font-size: 14px;
+    }
+
+    .Bail-Agent-paragraph {
+        font-size: 6px;
+    }
+
+    .Co-Signing-bail-paragraph {
+        font-size: 6px;
+    }
+
+    .Co-Signing-bail-2nd-para {
+        font-size: 6px;
+    }
+
+    .Co-Signing-bail-para {
+        font-size: 6px;
+    }
+
+    .Co-Signing-bail-heading {
+        font-size: 14px;
+    }
+
+    .images-tm-bsk-2 {
+        height: 100%;
+        width: 100%;
+        margin-top: 35%;
+    }
+
+    .Lower-images-div {
+        margin-bottom: 20%;
+    }
+}
+
+@media (max-width:562px) {
+    .images-kkp {
+        margin-top: -5%;
+    }
+
+    f .line-through-kk {
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        left: 30px;
+        right: 2px;
+        bottom: 1px;
+    }
+
+    .images-tm-bsk-2 {
+        margin-top: 3%;
+    }
+
+    .line-through-2-kk {
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        left: 27px;
+        right: -8px;
+        bottom: 1px;
+    }
+
+    .patnersKK-heading {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 501px) {
+    .Agent-main-main-div {
+        overflow: hidden;
+        padding: 2%;
+    }
+
+    .Bail-agent-div {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Co-Signing-bail {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .Bail-Agent-image-div {
+        width: 47%
+    }
+
+    .Co-Signing-image-div {
+        width: 28%;
+    }
+
+    .images-tm-bsk-2 {
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+
+    }
+
+    .images-kkp {
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        margin-top: -3%;
+
+    }
+
+    .line-through-2-kk {
+        border-top-right-radius: 23px;
+        border-bottom-left-radius: 30px;
+        left: 31px;
+        right: -12px;
+
+    }
+
+    .line-through-kk {
+        border-top-right-radius: 23px;
+        border-bottom-left-radius: 23px;
+        left: 33px;
+        right: -1px;
+    }
+
+    .Bail-image-box-div {
+        margin-top: 10%;
+    }
+
+    .images-tm-bsk-2 {
+        margin-top: 6%;
+    }
+
+    .Co-Signing-bail-heading {
+        font-size: 23px;
+    }
+
+    .Bail-Agent-heading {
+        font-size: 23px;
+    }
+
+    .Bail-Agent-paragraph {
+        font-size: 11px;
+    }
+
+    .Co-Signing-bail-paragraph {
+        font-size: 11px;
+    }
+
+    .top-part-in-subpart-skk {
+        padding-left: 2%;
+        width: 100%
+    }
+
+    .Co-Signing-bail-2nd-para {
+        font-size: 11px;
+    }
+
+    .Co-Signing-bail-para {
+        font-size: 11px;
+    }
+
+    .Co-Signing-bail-heading {
+        font-size: 20px;
+    }
+
+
+    .Lower-images-div {
+        margin-bottom: 20%;
+    }
+
+    .Co-Signing-image-div {
+        width: 50%;
+    }
+
+    .patnersKK-heading {
+        font-size: 1.5rem;
+    }
+
+    .logos-images {
+        padding-top: 4%;
+        width: 90%;
+    }
+}
+
+@media (max-width:376px) {
+    .images-kkp {
+        margin-top: -4%;
+    }
+
+    .line-through {
+        right: 3px;
+        border: 2px solid goldenrod;
+    }
+
+    .line-through-2-kk {
+        right: -8px;
+        border: 2px solid goldenrod;
+
+    }
+
+    .Lower-images-div {
+        margin-bottom: 14%;
+    }
+}
+
+@media (max-width:321px) {
+    .logos-div {
+        margin-top: 5%;
+        margin-bottom: 20%;
+    }
+}

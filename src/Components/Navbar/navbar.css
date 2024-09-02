@@ -1,0 +1,252 @@
+
+.main-header {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: 99;
+}
+
+
+.main-header:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 30px;
+    width: 100%;
+    background-color: #00082e;
+    content: "";
+}
+.social-icon-one {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.social-icon-one li {
+    position: relative;
+    margin-right: 10px;
+}
+
+.social-icon-one li:last-child {
+    margin-right: 0;
+}
+
+.social-icon-one li a {
+    position: relative;
+    display: block;
+    font-size: 18px;
+    color: #ffffff;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #00082e;
+    border-radius: 0 0 50% 50%;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.social-icon-one li a:hover {
+    background-color: #ffae00;
+    color: #ffffff;
+}
+body {
+    font-size: 16px;
+    color: #363636;
+    line-height: 28px;
+    font-weight: 400;
+    background: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    font-family: "Archivo", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover,
+a:focus,
+a:visited {
+    text-decoration: none;
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin: 0px;
+    background: none;
+    font-weight: 600;
+    line-height: 1.2em;
+    font-family: "Exo", sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 17px;
+}
+
+section {
+    position: relative;
+}
+
+textarea {
+    overflow: hidden;
+    resize: none;
+}
+
+button {
+    background-color: transparent;
+    outline: none !important;
+    cursor: pointer;
+    min-width: auto;
+}
+
+p,
+.text {
+    font-size: 16px;
+    line-height: 30px;
+    color: #555555;
+    font-weight: 400;
+    margin: 0;
+}
+
+::-webkit-input-placeholder {
+    color: inherit;
+}
+
+::-moz-input-placeholder {
+    color: inherit;
+}
+
+::-ms-input-placeholder {
+    color: inherit;
+}
+
+.auto-container {
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.small-container {
+    position: static;
+    max-width: 900px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+.page-wrapper {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    min-width: 300px;
+    overflow: hidden;
+    z-index: 1;
+    background-color: #ffffff;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.section {
+    padding: 60px 0 30px;
+}
+
+.bg_alice {
+    background-color: #f9fafc;
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.contact-list-one {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.contact-list-one li {
+    position: relative;
+    padding-left: 55px;
+    font-size: 14px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-right: 60px;
+}
+
+.contact-list-one li:last-child {
+    margin-right: 0;
+}
+
+.contact-list-one li strong {
+    position: relative;
+    display: block;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.contact-list-one li i {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    font-size: 26px;
+    line-height: 30px;
+    color: #ffae00;
+}
+.line{
+    color: black;
+}
+.contact-list-one li a {
+    color: #ffffff;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}

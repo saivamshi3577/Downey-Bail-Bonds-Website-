@@ -1,0 +1,314 @@
+/* .page-title{
+    background-image: url(../PaymentOptions/images/background/11.jpg);
+} */
+.page-title {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 140px 0;
+    background: #F5F7FC;
+    background-image: url(../Photos/11.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    /* background-position: 0px 50px; */
+    overflow: hidden !important;
+}
+
+.page-title .icon-bull-eye {
+    position: absolute;
+    right: -210px;
+    top: 0;
+    height: 422px;
+    width: 422px;
+    background-image: url(../Photos/icon-bull-eye-2.png);
+    content: "";
+}
+
+.page-title .icon-dotted-circle {
+    position: absolute;
+    left: -250px;
+    top: -40px;
+    -webkit-animation: fa-spin 60s linear infinite;
+    animation: fa-spin 60s linear infinite;
+}
+.icon-dotted-circle{
+    width: 500px;
+    height: 500px;
+    background-image: url(../Photos/icon-dotted-circle.png) !important;
+    background-size: cover;
+}
+
+.page-title:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #000ec1;
+    background: -o-radial-gradient(center, ellipse, #000ec1 0%, #000c47 100%, #000c47 100%);
+    background: radial-gradient(ellipse at center, #000ec1 0%, #000c47 100%, #000c47 100%);
+    content: "";
+    opacity: .9;
+}
+
+.page-title h1 {
+    position: relative;
+    display: block;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1em;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.page-breadcrumb {
+    position: relative;
+}
+
+.page-breadcrumb li {
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffffff;
+    padding: 0 15px;
+    text-transform: capitalize;
+}
+
+.page-breadcrumb li:after {
+    position: absolute;
+    top: 0px;
+    right: -5px;
+    content: "|";
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.page-breadcrumb li:last-child::after {
+    display: none;
+}
+
+.page-breadcrumb li a {
+    color: #ffffff;
+    text-transform: capitalize;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.page-breadcrumb li a:hover {
+    color: #ffba00;
+}
+
+
+/*****************content two *******************/
+.content-two-paymnet-options{
+    overflow: hidden;
+}
+.content-two-description{
+    padding: 5%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    /* overflow: hidden; */
+    width: 60%;
+}
+
+
+.content-two-divider{
+    position: relative;
+    display: block;
+    width: 68px;
+    height: 5px;
+    background-image: url(../Photos/divider.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 30px;
+}
+.decription-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer-box-right-div{
+    position: relative;
+}
+.Atm-cards-div{
+    position: absolute;
+    padding: 20px;
+    z-index: 9;
+    content: '';
+    background: linear-gradient(90deg, #ffc600 1%, #ff6c00 100%);
+    margin-top: -100px;
+    margin-left: 190px;
+}
+.Money-coins-div{
+    position: absolute;
+    padding: 20px;
+    z-index: 5;
+    content: '';
+    background: linear-gradient(45deg, #000b46 0%, #001166 100%);
+    margin-left: 20px;
+    margin-top: -170px;
+}
+.shaded-box-div{
+    position: absolute;
+    z-index: 0;
+    margin-left: 100px;
+    margin-top: -145px;
+}
+
+
+.fixed-icon-payment-options{
+    position: fixed;
+    top: 30%;
+    left: 0;
+    background-color: #001376;
+    z-index: 999;
+    padding-left: .7%;
+    padding-right: .8%;
+    padding-top: .5%;
+    padding-bottom: .5%;
+}
+.fixed-icon-payment-options img{
+    animation: fa-spin 3s linear infinite ;
+}
+
+
+/*********** aniamtion****************/
+.fa-spin {
+    -webkit-animation: fa-spin 2s infinite linear;
+            animation: fa-spin 2s infinite linear; }
+  
+  .fa-pulse {
+    -webkit-animation: fa-spin 1s infinite steps(8);
+            animation: fa-spin 1s infinite steps(8); }
+  
+  @-webkit-keyframes fa-spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg); }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg); } 
+            }
+  
+  @keyframes fa-spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg); }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg); } 
+            }
+  
+
+/**************media screens *************/
+
+@media screen and (max-width:1100px){
+    .page-title{
+        padding: 100px 0;
+    }
+    .Atm-card-img{
+        width: 100px !important;
+    }
+    .Atm-cards-div{
+        margin-top: -115px;
+        margin-left: 140px;
+    }
+    .money-coins-img{
+        width: 100px !important;
+    }
+    .pattern-img{
+        width: 170px !important;
+    }
+}
+@media screen and (max-width:1000px) {
+    .page-title{
+        padding: 80px 0;
+    }
+    .content-two-description{
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    .description-left{
+        width: 100%;
+    }
+    .decription-right{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .outer-box-right-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .Atm-cards-div{
+        position: relative !important;
+        margin-top: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .Money-coins-div{
+        position: relative !important;
+        margin-top: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .shaded-box-div{
+        display: none;
+    }
+}
+@media screen and (max-width:768px) {
+    .page-title{
+        padding: 50px 0px;
+    }
+    .page-title h1{
+        font-size: 36px !important;
+    }
+    .icon-dotted-circle{
+        display: none;
+    }   
+    .icon-bull-eye{
+        display: none;
+    }
+    .page-breadcrumb li{
+        font-size: 20px;
+    }
+    .page-breadcrumb li:after{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:450px) {
+    .page-title{
+        padding: 25px 0;
+    }
+    .page-title h1{
+        font-size: 28px !important;
+    }
+    .page-breadcrumb li{
+        font-size: 18px;
+    }
+    .page-breadcrumb li:after{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:375px) {
+    .page-title h1{
+        font-size: 24px !important;
+    }
+    .page-breadcrumb li{
+        font-size: 16px;
+    }
+    .page-breadcrumb li:after{
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,176 @@
+.heading{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    
+}
+.accordion-item:first-of-type{
+    border-radius: 0;
+    
+}
+.accordion-item{
+    width:90%;
+}
+
+
+.accordion-header {
+    margin-bottom: 9px;
+}
+/* .accordion-button::before {
+    flex-shrink: 0;
+    text-align: center;
+    width: var(--bs-accordion-btn-icon-width);
+    height: var(--bs-accordion-btn-icon-width);
+    content: "";
+    background-image: var(--bs-accordion-btn-icon);
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: var(--bs-accordion-btn-icon-transition);
+    background-color: goldenrod;
+    width:5%;
+    height:30px;
+    padding:5%;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin-right: 20px;
+    --bs-accordion-btn-icon: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23052c65' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='M2 5L8 11L14 5'/%3e%3c/svg%3e);
+} */
+
+.accordion-button:before {
+    background-position: 10px 10px;
+    flex-shrink: 0;
+    width: 0;
+    height: 0;
+    padding: 0 !important;
+    text-align: center;
+    content: "";
+    /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23052c65' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='M2 5L8 11L14 5'/%3e%3c/svg%3e"); */
+    background-repeat: no-repeat;
+    background-size: 10;
+    transition: var(--bs-accordion-btn-icon-transition);
+}
+.accordion-button{
+    padding: 0% !important;
+    margin: 0%;
+    font-family: "Sahitya", serif;
+    border: none;
+    background-color:white;
+    padding:3px;
+    border-radius: 0;
+    width:100%;
+    font-size: 18px;
+    
+    
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.accordion-button::before {
+    padding:0;
+    flex-shrink: 0;
+    width: 2.75rem;
+    background-color: #ffba00;
+    text-align: center;
+    height:2.75rem;
+
+    background-image: var(--bs-accordion-btn-icon);
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: var(--bs-accordion-btn-icon-transition);
+   
+}
+.accordion-button:not(.collapsed):before {
+    background-image: url("../Photos/white-minus-icon.png");
+   background-color: #ff4200;
+   padding: 0;
+}
+.nameing{
+
+    color: #001376;
+    padding-left: 10px;
+    font-family: sans-serif;
+    
+
+}
+.accordion-button:not(.collapsed) {
+    color: white !important;
+    width:100%;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0;
+}
+.accordion-button:not(.collapsed) {
+    .nameing{
+
+    
+        color: #ff4200 !important;
+       
+    
+    }
+    
+}
+
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 0;
+    height:0;
+    margin: 0%;
+    content: "";
+    background-image:0;
+    background-repeat: no-repeat;
+    background-size: 0;
+    transition: 0;
+}
+.accordion-body{
+    font-family: "Sahitya", serif;
+
+}
+
+
+
+.accordion{
+    --bs-accordion-btn-focus-box-shadow: 2 2 2 2;
+    --bs-accordion-border-color:0;
+    --bs-accordion-active-bg:0;
+    
+    --bs-accordion-btn-icon-width:1em;
+
+    --bs-accordion-btn-icon: url("../Photos/white-plus-icon.png");
+
+}
+.accordion-collapse{
+    border-width: 10px;
+    margin:10px;
+}
+.accordion-button:not(.collapsed){
+    color:white;
+}
+
+@media (max-width:600px) {
+    .nameing{
+        font-size: 12px;
+    
+        padding-left: 10px;
+       
+    
+    }
+    .accordion-body {
+        font-size: 10px;
+        font-family: "Sahitya", serif;
+    }
+    .accordion-button::before {
+        flex-shrink: 0;
+        width: 1.75rem;
+        background-color: #ffba00;
+        text-align: center;
+        height:1.75rem;
+    }   
+    .accordion{
+        
+        --bs-accordion-btn-icon-width:0.5em; 
+    } 
+    
+}

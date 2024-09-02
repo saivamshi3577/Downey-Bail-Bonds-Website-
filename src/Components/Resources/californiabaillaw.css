@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Outfit:wght@100..900&display=swap');
+
+
+.banner-image-californiabaillaw {
+    background-size: cover;
+    background-image: url(../Photos/california.png);
+    display: flex;
+    justify-content: center;
+}
+ 
+.opp-californiabaillaw {
+    font-family: Cormorant Garamond;
+    font-size: 5vw;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 25%;
+    padding-bottom: 19%;
+}
+
+
+.alignment-californiabaillaw {
+    display: flex;
+    flex-direction: row;
+    /* background-color: #00082E; */
+    
+    /* justify-content: space-between; */
+    /* padding: 1%; */
+}
+
+.div-californiabaillaw{
+    margin: 3%;
+}
+
+.div-californiabaillaw-1{
+    padding: 1%;
+}
+
+.div-header-californiabaillaw{
+    padding-left: 3%;
+}
+
+.heading-californiabaillaw {
+    font-family: "Cormorant Garamond", serif;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.heading-californiabaillaw-1 {
+    font-family: "Cormorant Garamond", serif;
+    color: #FFAE00;
+    font-size: 40px;
+    font-weight: 900;
+    
+}
+
+.header-californiabaillaw{
+    font-family: "Cormorant Garamond", serif;
+    color: #FFAE00;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.heading-californiabaillaw-3 {
+    font-size: 30px !important;
+}
+
+.para-californiabaillaw {
+    color: white;
+    font-size: 19px;
+    font-family: "Lora", serif;
+    text-align: center;
+    font-weight: normal;
+}
+
+.para-californiabaillaw-1 {
+    font-size: 19px;
+    font-family: Cormorant Garamond;
+    font-weight: normal;
+    margin: 2%;
+}
+
+
+.Image-californiabaillaw {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    margin-left: 50%;
+}
+
+
+@media (max-width:1501px){
+
+    .heading-californiabaillaw {
+        font-size: 46px;
+    }
+    .heading-californiabaillaw-1 {
+        font-size: 46px;
+    }
+    .para-californiabaillaw {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .para-californiabaillaw-1 {
+        font-size: 19px;
+        /* line-height: 35px; */
+    }
+}
+
+@media (max-width:1317px) {
+
+    .heading-californiabaillaw {
+        font-size: 44px;
+    }
+    .heading-californiabaillaw-1 {
+        font-size: 44px;
+    }
+    .para-californiabaillaw {
+        font-size: 22px;
+        line-height: 33px;
+    }
+    .para-californiabaillaw-1 {
+        font-size: 19px;
+        /* line-height: 33px; */
+    }
+    
+}
+
+@media (max-width:1124px){
+    
+    .heading-californiabaillaw {
+        font-size: 43px;
+    }
+    .heading-californiabaillaw-1 {
+        font-size: 43px;
+    }
+    .para-californiabaillaw {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .para-californiabaillaw-1 {
+        font-size: 19px;
+        /* line-height: 30px; */
+    }
+
+}
+
+@media (max-width:1024px){
+    .opp-californiabaillaw {
+        font-size: 40px;
+    }
+    
+    .heading-californiabaillaw {
+        font-size: 40px;
+    }
+    .heading-californiabaillaw-1 {
+        font-size: 40px;
+    }
+    .para-californiabaillaw {
+        font-size: 19px;
+        line-height: 29px;
+    }
+    .para-californiabaillaw-1 {
+        font-size: 19px;
+        /* line-height: 29px; */
+    }
+}
+
+@media (max-width:780px){
+    
+    .heading-californiabaillaw {
+        font-size: 34px;
+    }
+    .heading-californiabaillaw-1 {
+        font-size: 34px;
+    }
+    .para-californiabaillaw {
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .para-californiabaillaw-1 {
+        font-size: 17px;
+        /* line-height: 25px; */
+    }
+
+}
+@media (max-width:701px){
+    
+    .heading-californiabaillaw {
+        font-size: 30px;
+    }
+    .heading-californiabaillaw-1 {
+        font-size: 30px;
+    }
+    .para-californiabaillaw {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .para-californiabaillaw-1 {
+        font-size: 15px;
+        /* line-height: 23px; */
+    }
+
+}
+@media (max-width:623px){
+    .opp-californiabaillaw {
+        font-size: 20px;
+    }
+}
+@media (max-width:555px) {
+    .alignment-californiabaillaw {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .heading-californiabaillaw {
+        font-size: 26px;
+    }
+    .heading-californiabaillaw-1 {
+        font-size: 26px;
+    }
+    .para-californiabaillaw {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .para-californiabaillaw-1 {
+        font-size: 13px;
+        /* line-height: 20px; */
+    }
+}
+@media (max-width:500px){
+    .opp-californiabaillaw {
+        font-size: 15px;
+    }
+    .heading-californiabaillaw-3 {
+        font-size: 15px !important;
+    }
+    .header-californiabaillaw{
+        font-size: 20px;
+    }
+}
+@media (max-width:380px){
+    .opp-californiabaillaw {
+        font-size: 20px;
+    }
+}

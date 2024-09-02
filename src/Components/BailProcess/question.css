@@ -1,0 +1,563 @@
+.Arrest-And-Bookings-top{
+    background-image: url(../Photos/Banner.png);
+    /* height: 100vh; */
+}
+.background-color{
+    background-color: #060647;
+    margin-top:-4% ;
+}
+.heading-sa{
+    color:#FFAE00;
+    font-weight: 500;
+    font-family: 'Cormorant Garamond';   /*********77777777777777777777777777777777777************/
+    font-size: 25px !important;
+    padding-top: 1%;
+    margin-left: 1%;
+    /* margin-bottom: 5px; */
+    /* opacity: 0; */
+
+}
+.paragraph-sa{
+    color:antiquewhite;
+    width: 50%;
+    margin-left: 3%;
+    
+}
+.para-sa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Arrest-Bookings-Head{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Arrest-Bookings-Head{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin-top: 5%; */
+}
+.Arrest-bookings-headings-h1h3{
+    /* padding-left: 3%; */
+    margin-top: 5%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+}
+.Arrest-bookings-h1{
+    color: white;
+    font-weight: 500;
+    font-family: 'Cormorant Garamond';   /*********77777777777777777777777777777777777************/
+    font-size: 64px !important;
+    margin-bottom: 5px;
+    opacity: 0;
+    animation: slipTop 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+   
+}
+.Arrest-Bookings-h3{
+    /* width: 80%; */
+    width: 620px;
+    /* min-width: 500px; */
+    color: #FFAE00;
+    font-weight: 400;
+    font-family: 'Outfit';
+    font-size: 26px;
+    margin-top: 5px;
+    opacity: 0;
+    margin-bottom: 5%;
+    animation: slipRight 1s ease forwards;
+    animation-delay: calc(.2s * var(--i))  ;
+    
+}
+.Arrest-Bookings-Btn{
+    color: black;
+    background-color: #FFAE00;
+    font-family: 'Outfit';
+    width: 265px;
+    font-size: 22px;
+    height: 75px;
+    border-radius: 30px;
+    margin-top: 14%;
+    opacity: 0;
+    margin-bottom: 5%;
+    animation: slipLeft 1s ease forwards;
+    animation-delay: calc(.2s*var(--i));
+    
+}
+
+/***********************content 2************************/
+.Arrest-Bookings-Content2{
+    width: 100%;
+    /* background-image: url(./image\ 28.png); */
+    /* background-repeat: no-repeat;
+    background-position: 100% 2px; */
+    background-color: rgb(6, 6, 28);
+   overflow-y: hidden;
+}
+.AB-content2-h1{
+    color: #FFAE00;
+    font-size: 62px;
+    font-weight: 500;
+    font-family: 'Cormorant Garamond';
+    margin-bottom: 0;
+    opacity: 0;
+}
+.AB-content-description{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+.AB-content-description-paras{
+    width: 800px;
+    padding: 1%;
+    /* opacity: 0; */
+    
+}
+.Ab-content2-right-img{
+    padding: 1%;
+    opacity: 0;
+}
+.AB-paras-points{
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    font-family: 'Lora';
+    font-weight: 400;
+    opacity: 0;
+}
+.AB-content-points{
+    width: 5%;
+}
+.Ab-content-points-desc{
+    width: 95%;
+    text-align: start;
+}
+
+
+
+/******************animations********************/
+@keyframes slipRight {
+    0%{
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    75%{
+        transform: translateX(30px);
+        opacity: 0.75;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+
+}
+@keyframes slipLeft {
+    0%{
+        transform: translateX(200px);
+        opacity: 0;
+    }
+    75%{
+        transform: translateX(-30px);
+        opacity: 0.75;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+
+}
+@keyframes backGroundSlipLeft {
+    0%{
+        background-position: 150% 0px;
+        background-color: rgb(6, 6, 28);
+         opacity: 1;
+    }
+    75%{
+        background-position: 99% 1px;
+        background-color: rgb(6, 6, 28);
+        opacity: 1;
+    }
+    100%{
+        background-position: 100% 2px;
+        background-color: rgb(6, 6, 28);
+        opacity: 1;
+    }
+
+}
+@keyframes backGroundSlipRight {
+    0%{
+        background-position: -200px 300px;
+        opacity: 0;
+    }
+    75%{
+        background-position: 15px 300px;
+        opacity: 0.75;
+    }
+    100%{
+        background-position: 0 300px;
+        opacity: 1;
+    }
+
+}
+@keyframes slipTop {
+    0%{
+        transform: translateY(200px);
+        opacity: 0;
+    }
+    75%{
+        transform: translateY(-30px);
+        opacity: 0.75;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+
+/******animation implentation on Scroll **************/
+
+/* .Arrest-And-Bookings-top.show-animate .Arrest-bookings-h1{
+    opacity: 0;
+    animation: slipTop 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+.Arrest-And-Bookings-top.show-animate .Arrest-Bookings-h3{
+    opacity: 0;
+    animation: slipRight 1s ease forwards;
+    animation-delay: calc(.2s * var(--i))  ;
+}
+.Arrest-And-Bookings-top.show-animate .Arrest-Bookings-Btn{
+    opacity: 0;
+    animation: slipLeft 1s ease forwards;
+    animation-delay: calc(.2s*var(--i));
+} */
+
+.Arrest-Bookings-Content2.show-animate .AB-content2-h1{
+    opacity: 0;
+    animation: slipTop 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+.Arrest-Bookings-Content2.show-animate .AB-paras-points{
+    opacity: 0;
+    animation: slipRight 1s ease forwards;
+    animation-delay: calc(.2s * var(--i))  ;
+}
+.Arrest-Bookings-Content2.show-animate .Ab-content2-right-img{
+    opacity: 0;
+    animation: slipLeft 1s ease forwards;
+    animation-delay: calc(.2s*var(--i));
+}
+.Arrest-Bookings-Content2.show-animate {
+    /* background-image:url(../Photos/image\ 28.png) ; */
+    background-color: rgb(6, 6, 28); 
+    background-repeat: no-repeat;
+    animation: backGroundSlipLeft 1s ease forwards ;
+}
+.Arrest-Bookings-Content2.show-animate .AB-content-description {
+    /* background-image: url(../Photos/image\ 27.png); */
+    background-repeat: no-repeat;
+    animation: backGroundSlipRight 1s ease forwards;
+}
+
+
+/******************************media screens******************************/
+
+@media screen and (max-width:1100px){
+    .Arrest-bookings-h1{
+        font-size: 54px
+    }
+    .Arrest-Bookings-h3{
+        width: 550px;
+        font-size: 24px;
+    }
+    .Arrest-Bookings-Btn{
+        width: 225px;
+        height: 70px;
+        border-radius: 25px;
+    }
+    /**************Content 2*******************/
+    
+    .AB-content2-h1{
+        font-size: 44px;
+    }
+    .AB-paras-points{
+        font-size: 14px;
+        font-weight: 300 !important;
+    }
+    .Ab-content2-right-img{
+        width: max-content;
+    }
+    .AB-content-description-paras{
+        width: 550px;
+    }
+    .Ab-content2-right-img img{
+        width:90%;
+    }
+}
+@media screen and (max-width:800px){
+    .Arrest-Bookings-Head{
+        height: 300px;
+    }
+    .Arrest-bookings-h1{
+        font-size: 44px !important
+    }
+    .Arrest-Bookings-h3{
+        width: 400px;
+        font-size: 21px;
+    }
+    .Arrest-Bookings-Btn{
+        width: 175px;
+        height: 50px;
+        border-radius: 15px;
+    }
+    /**************Content 2*******************/
+    .AB-content-description{
+        align-items: center;
+    }
+
+    .AB-content2-h1{
+        font-size: 38px;
+    }
+    .AB-paras-points{
+        font-size: 11px;
+        font-weight: 300 !important;
+        letter-spacing: .5px;
+    }
+    .Ab-content2-right-img{
+        width: max-content;
+    }
+    .AB-content-description-paras{
+        width: 550px;
+    }
+    .Ab-content2-right-img img{
+        width:90%;
+    }
+}
+@media screen and (max-width:599px){
+    .Arrest-Bookings-Head{
+        height: 250px;
+    }
+    .Arrest-bookings-h1{
+        font-size: 32px !important
+    }
+    .Arrest-Bookings-h3{
+        width: 350px !important;
+        font-size: 14px !important;
+    }
+    .Arrest-Bookings-Btn{
+        width: 125px;
+        height: 35px;
+        border-radius: 10px;
+        font-size: medium;
+    }
+    /**************Content 2*******************/
+    .AB-content-description{
+        align-items: center;
+    }
+
+    .AB-content2-h1{
+        font-size: 32px;
+        width: 100%;
+    }
+    .AB-paras-points{
+        font-size: 11px;
+        font-weight: 300 !important;
+        letter-spacing: .5px;
+    }
+    .Ab-content2-right-img{
+        display: none;    }
+    .AB-content-description-paras{
+        width: 100%;
+    }
+    .Ab-content2-right-img img{
+        width:90%;
+    }
+}
+@media screen and (max-width:470px){
+    .Arrest-Bookings-Head{
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center !important;
+        height: 250px;
+    }
+    .Arrest-bookings-headings-h1h3{
+        width: 95%;
+    }
+    .Arrest-bookings-h1{
+        font-size: 32px !important
+    }
+    .Arrest-Bookings-h3{
+        width: 100% !important;
+        font-size: 14px !important;
+    }
+    .Arrest-Bookings-Btn{
+        
+        margin-top: 0px;
+    }
+    /**************Content 2*******************/
+    .AB-content-description{
+        align-items: center;
+    }
+
+    .AB-content2-h1{
+        font-size: 32px;
+        width: 100%;
+    }
+    .AB-paras-points{
+        font-size: 11px;
+        font-weight: 300 !important;
+        letter-spacing: .5px;
+    }
+    .Ab-content2-right-img{
+        display: none;    }
+    .AB-content-description-paras{
+        width: 100%;
+    }
+    .Ab-content2-right-img img{
+        width:90%;
+    }
+}
+.bottom-part-in-subpart-skb-1122{
+    width:30%
+}
+.images-tm-bsk-112{
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    padding:10px;
+    height:100%;
+    width:90%;
+}
+
+.image-box-tm-bsk-112 {
+    position: relative;
+    padding: 10px 0px 0 0;
+}
+.line-through-112 {
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    position: absolute;
+    left: 50px;
+    right: 7px;
+    top: 0;
+   
+    bottom: -30px;
+    border: 3px solid goldenrod;
+    /* border-radius: 0 0 250px 250px; */
+    content: "";
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+    animation: fadeUp 1s ease;
+}
+.image-box-tm-bsk-2-1122 {
+    position: relative;
+    padding: 10px 0px 0 0;
+}
+
+ 
+.alignment-for-top-part-skb-1122{
+    display:flex;
+    flex-direction: row;
+ 
+}
+@media (max-width: 555px){
+    .alignment-for-top-part-skb-1122{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+   
+    }
+}
+.top-part-in-subpart-skb-1122{
+    padding-left: 4%;
+    width:70%
+}
+.heading-for-top-part-skb-2-1122{
+    font-family: "Cormorant Garamond", serif;
+    color:#00082E;
+    font-size: 40px;
+    font-weight: 0;
+    font-family: Lora;
+}
+.para-for-top-part-skb-2-1122{
+ 
+    font-family: "Lora", serif;
+    font-size: 16px;
+    font-weight: 0;
+}
+.bottom-part-in-subpart-skb-1122{
+    width:30%
+}
+.image-box-tm-bsk-2-1122 {
+    position: relative;
+    padding: 10px 0px 0 0;
+}
+.images-tm-bsk-2-1122{
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    padding:10px;
+    height:100%;
+    width:90%;
+}
+.line-through-2-1122 {
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    position: absolute;
+    left: 50px;
+    right: 7px;
+    /* top: 30 !important; */
+    opacity:unset;
+   
+    bottom: -30px;
+    border: 3px solid goldenrod;
+    /* border-radius: 0 0 250px 250px; */
+    content: "";
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+    /* animation: fadeUp 1s ease; */
+}
+.line-through-2-11222 .logos-div-1122 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images-div-1122 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ImageKK-1122 {
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+}
+.patnersKK-heading-112 {
+    font-family: "Cormorant Garamond";
+    font-weight: 700;
+    font-size: 2.4rem;
+    margin-inline-start: 0.9%;
+    margin-inline-end: 0.9%;
+    color: #161D27;
+}
+.line-through-2-11222 .logos-div-1122 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logos-images-1122 {
+    width: 80%;
+}

@@ -1,0 +1,38 @@
+.meetingtxt9t{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.meetout9t{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.client9t{
+    width: 85%;
+}
+.meetclient9t{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -20px;
+}
+.clienttext9t{
+    font-family: Cormorant Garamond;
+    font-size: 5vi;
+    line-height: 51.57px;
+    font-weight: 700;
+    margin: 4%;
+    margin-bottom: 6%;
+   
+}
+.space9t{
+    opacity: 0;
+}
+.plusicon6t{
+    width: 17vw;
+}

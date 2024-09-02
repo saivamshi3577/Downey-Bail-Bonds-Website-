@@ -1,0 +1,451 @@
+* {
+    padding: 0;
+    margin: 0
+}
+
+#courtLocatorImgDiv1 {
+    background-image: url('../Photos/courtLocatorImg.png');
+    object-fit: cover;
+    width: 100%;
+    height: 305px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#courtHeadingDiv {
+    width: 40%;
+    font-size: 5vw;
+}
+
+#courtHeading {
+    font-family: Cormorant Garamond;
+    font-size: 5vw;
+    font-weight: 700;
+    color: #FFAE00;
+}
+
+#southernCalforniaMainHeading {
+    font-family: Cormorant;
+    font-size: 2.5vw;
+    font-weight: 700;
+    text-align: center;
+    color: #081245;
+    margin-block: 28px;
+}
+
+#sideHeading {
+    font-family: Cormorant;
+    font-size: 2.3vw;
+    font-weight: 700;
+    color: #081245;
+    margin-block: 18px;
+    margin-left: 3%;
+}
+
+.stateSideHeading {
+    font-family: Cormorant;
+    font-size: 2.5vw;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 3%;
+    color: #FFAE00;
+}
+
+.nameAndAddressDiv {
+    display: flex;
+    padding-left: 4%;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    /* height: auto; */
+}
+
+.namesDiv {
+    width: 40%;
+}
+
+.nameHeading,
+.addressHeading {
+    font-family: Cormorant;
+    font-weight: 700;
+    text-align: left;
+    font-size: 2.2vw;
+    color: #FFAE00;
+}
+
+.addressDiv {
+    width: 50%;
+    margin-left: 2%;
+}
+
+.lineDiv {
+    height: 1.2px;
+    width: 95%;
+    background-color: #FFAE00;
+}
+
+.listItemCss {
+    font-family: Cormorant;
+    font-size: 1.5vw;
+    font-weight: 500;
+    line-height: 65px;
+    text-align: left;
+    color: #081245;
+}
+
+.marginTop {
+    margin-top: -150px;
+}
+
+
+.blueBoxSideHeadings1 {
+    font-family: Cormorant;
+    font-size: 2.3vw;
+    font-weight: 700;
+    color: #081245;
+    margin-block: 18px;
+    margin-left: 3%;
+}
+
+#marginAdjustment1 {
+    margin-top: -110px;
+}
+
+.blueBoxesDiv {
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline: 4%;
+    justify-content: center;
+}
+
+.blueBox {
+    width: 410px;
+    height: 300px;
+    background-color: #081245;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 15px; */
+    margin: 15px;
+}
+.blueBox:hover{
+    cursor: pointer;
+    background-color: #0d1124;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    border-radius: 15px;
+}
+
+.boxHeadingInfo1 {
+    font-size: 1.5vw;
+    color: #FFAE00;
+    text-align: center;
+}
+
+.boxAddress,
+.boxPhone {
+    font-family: Cormorant Garamond;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    margin-block: 8px;
+}
+
+#bottomLine {
+    width: 100%;
+    height: 1px;
+    background-color: grey;
+    margin-block: 25px;
+}
+
+#partnersDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#designAndHeading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#meetOurPartnerHeading {
+    font-family: Cormorant Garamond;
+    font-size: 2vw;
+    font-weight: 700;
+    line-height: 51.57px;
+}
+
+#bottomPartnerLogos {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1441px) {
+    .listItemCss{
+        font-size: 1.5vw;
+    }
+}
+
+
+@media only screen and (max-width: 1025px) {
+    #courtLocatorImgDiv1 {
+        height: 250px;
+    }
+
+    #courtHeading {
+        font-size: 5.5vw;
+    }
+
+    #southernCalforniaMainHeading {
+        font-size: 2.5vw;
+    }
+
+    #sideHeading {
+        font-size: 2.4vw;
+    }
+
+    .stateSideHeading {
+        font-size: 3vw;
+    }
+
+    .nameHeading,
+    .addressHeading {
+        font-size: 3vw;
+    }
+
+    .listItemCss {
+        font-size: 1.5vw;
+        line-height: 38px;
+    }
+
+    .blueBoxSideHeadings1 {
+        font-size: 2.5vw;
+    }
+}
+
+@media only screen and (max-width: 887px) {
+    .nameAndAddressDiv {
+        margin-bottom: 30px;
+    }
+
+    .listItemCss {
+        font-size: 1.5vw;
+    }
+
+    #meetOurPartnerHeading {
+        font-size: 3vw;
+        margin-inline: 15px;
+    }
+
+    .equalStarImg {
+        /* height:10% */
+        width: 50px;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .listItemCss {
+        font-size: 1.7vw;
+        line-height: 25px;
+    }
+
+    .lineDiv {
+        height: 1px;
+    }
+
+    .boxHeadingInfo1 {
+        font-size: 2.5vw;
+    }
+
+    .nameAndAddressDiv {
+        margin-bottom: 65px;
+    }
+    #designAndHeading{
+        height: 100px;
+    }
+    .blueBox{
+        height: 210px;
+    }
+    .blueBoxSideHeadings1 {
+        font-size: 4.3vw;
+    }
+    /* #bottomPartnerLogos{
+        margin-top: 10px;
+    } */
+}
+
+@media only screen and (max-width: 687px) {
+    #southernCalforniaMainHeading {
+        font-size: 3vw;
+    }
+
+    #sideHeading {
+        font-size: 2.8vw;
+    }
+
+    .stateSideHeading {
+        font-size: 3.2vw;
+    }
+
+    .listItemCss {
+        font-size: 1.7vw;
+    }
+
+    #courtLocatorImgDiv1 {
+        height: 200px;
+    }
+    #designAndHeading{
+        height: 80px;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    .nameAndAddressDiv {
+        margin-bottom: 85px;
+        justify-content: space-between;
+    }
+
+    .listItemCss {
+        font-size: 1.8vw;
+    }
+
+    .namesDiv {
+        width: 45%;
+    }
+
+    .stateSideHeading {
+        font-size: 3vw;
+    }
+
+    .blueBoxSideHeadings1 {
+        font-size: 3vw;
+    }
+    #designAndHeading{
+        margin-top: -80px;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    #courtLocatorImgDiv1 {
+        height: 180px;
+    }
+
+    #rightExtendImg {
+        width: 40%;
+    }
+
+    #courtHeading {
+        font-size: 28px;
+    }
+
+    #southernCalforniaMainHeading {
+        font-size: 3.5vw;
+    }
+
+    #sideHeading {
+        font-size: 3.5vw;
+    }
+
+    .listItemCss {
+        font-size: 1.9vw;
+    }
+
+    .nameHeading,
+    .addressHeading {
+        font-size: 4vw;
+    }
+
+    .nameAndAddressDiv {
+        margin-bottom: 95px;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    #courtLocatorImgDiv1 {
+        height: 150px;
+    }
+    .listItemCss{
+        font-size: 16px;
+    }
+    .stateSideHeading {
+        font-size: 3.5vw;
+    }
+
+    .nameHeading,
+    .addressHeading {
+        font-size: 4vw;
+    }
+
+    .listItemCss {
+        font-size: 1.9vw;
+    }
+
+    .lineDiv {
+        height: 0.7px;
+    }
+
+    .blueBoxSideHeadings1 {
+        font-size: 4vw;
+    }
+
+    .blueBox {
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #courtHeading {
+        font-size: 5.5vw;
+    }
+
+    #courtLocatorImgDiv1 {
+        height: 150px;
+    }
+
+    .nameAndAddressDiv {
+        margin-bottom: 95px;
+    }
+
+    .listItemCss {
+        font-size: 1.9vw;
+    }
+
+    #meetOurPartnerHeading {
+        font-size: 4.2vw;
+    }
+
+    .boxHeadingInfo1 {
+        font-size: 3vw;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    #courtLocatorImgDiv1 {
+        height: 130px;
+    }
+
+    .nameAndAddressDiv {
+        margin-bottom: 100px;
+    }
+
+    .listItemCss {
+        font-size: 1.9vw;
+        line-height: 22px;
+    }
+
+    .blueBoxSideHeadings1 {
+        font-size: 4.3vw;
+    }
+}
+
+
+
+
+
+

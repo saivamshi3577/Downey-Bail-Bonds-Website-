@@ -1,0 +1,321 @@
+.backgroundimg{
+    background-image: url(../Photos/000.jpg);
+    
+}
+
+.call-to-action {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 110px 0;
+    overflow: hidden;
+}
+
+.anim-icons {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 1170px;
+    /* margin: 0 auto; */
+    margin-right: 50%;
+    animation: pulse2 19s ease infinite;
+}
+.anim-icons.full-width {
+    max-width: 100%;
+}
+
+.anim-icons .icon {
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.auto-container1 {
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 30px;
+    color: #555555;
+    font-weight: 400;
+    margin: 0;
+}
+
+.theme-btn {
+    display: inline-block;
+    text-align: center;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.btn-style-two {
+    position: relative;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+    padding: 10px 30px;
+    font-weight: 600;
+    background: #001376;
+    overflow: hidden;
+    min-width: 180px;
+    background: #ffc600;
+    background: -o-linear-gradient(45deg, #ffc600 1%, #ff6c00 100%);
+    background: linear-gradient(45deg, #ffc600 1%, #ff6c00 100%);
+}
+
+.btn-style-two:hover {
+    color: #ffffff;
+}
+
+.btn-style-two:hover:before {
+    opacity: 1;
+}
+
+.btn-style-two:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #ffc600;
+    background: -o-linear-gradient(135deg, #ffc600 1%, #ff6c00 100%);
+    background: linear-gradient(-45deg, #ffc600 1%, #ff6c00 100%);
+    content: "";
+    opacity: 0;
+    -webkit-transition: opacity 200ms ease;
+    -o-transition: opacity 200ms ease;
+    transition: opacity 200ms ease;
+}
+
+.theme-btn .btn-title {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    z-index: 9;
+    color: inherit;
+}
+
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+  }
+
+
+
+  .call-to-action {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 110px 0;
+}
+
+.call-to-action .icon-dotted-world.left {
+    left: -280px;
+    top: 30px;
+    -webkit-animation: bounce-x 10s infinite;
+    animation: bounce-x 10s infinite;
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+}
+
+.call-to-action .icon-dotted-world.right {
+    right: -280px;
+    top: 30px;
+    -webkit-animation: bounce-x 10s infinite;
+    animation: bounce-x 10s infinite;
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+}
+
+.call-to-action:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #00082e;
+    background: -o-linear-gradient(45deg, #00082e 0%, #081245 100%);
+    background: linear-gradient(45deg, #00082e 0%, #081245 100%);
+    opacity: .90;
+    content: "";
+}
+
+.call-to-action .content-box {
+    position: relative;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.call-to-action .content-box h2 {
+    display: block;
+    font-size: 30px;
+    line-height: 1.2em;
+    color: #ffa200;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+.call-to-action .content-box .text {
+    position: relative;
+    display: block;
+    font-size: 18px;
+    line-height: 36px;
+    color: #ffffff;
+    /* font-weight: 300; */
+    margin-bottom: 40px;
+}
+
+.call-to-action .content-box .theme-btn {
+    position: relative;
+    font-size: 16px;
+}
+
+
+/*** 
+
+====================================================================
+    Call to Action Two
+====================================================================
+
+***/
+
+.call-to-action-two {
+    position: relative;
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #011372;
+    padding: 85px 0;
+}
+
+.call-to-action-two:before {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 55%;
+    background-image: url(../Photos/cta-bg.png);
+    content: "";
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+}
+
+.call-to-action-two .content-column {
+    position: relative;
+}
+
+.call-to-action-two .content-box {
+    position: relative;
+    padding-left: 50px;
+    max-width: 500px;
+}
+
+.call-to-action-two .content-box .sub-title {
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.call-to-action-two .content-box h2 {
+    display: block;
+    font-size: 36px;
+    line-height: 1.3em;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.call-to-action-two .content-box .text {
+    position: relative;
+    display: block;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.call-to-action-two .content-box .theme-btn {
+    position: relative;
+    font-size: 16px;
+}
+
+
+
+.icon-dotted-world {
+    width: 430px;
+    height: 430px;
+    background-image: url(../Photos/icon-world.png);
+}
+
+
+.world-animation{
+    position: absolute;
+    margin-right: -280px;
+    animation: pulse2 10s ease infinite;
+}
+
+@keyframes pulse2 {
+    0%{
+        transform: scale3d((1,1,1));
+    }
+    50%{
+        transform: scale3d(1.25,1.25,1.25);
+    }
+    100%{
+        transform: scale3d(1,1,1);
+    }
+}
+
+
+@media (max-width:768px){
+    .icon-dotted-world {
+        width: 430px;
+        height: 430px;
+        background-image: none;
+    }
+
+}
+@media (max-width:425px){
+    .contact-header{
+        text-align: center;
+        font-size: 24px;
+    }
+    .contact-header-para{
+        text-align: center;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    
+
+}
+
+
+

@@ -1,0 +1,526 @@
+/* .alignment-of-faqs{
+    display: flex  !important;
+} */
+.banner-image {
+    filter: brightness(50%);
+    position: relative;
+    z-index: -1;
+ 
+}
+ 
+.banner-image-content-opo {
+    /* margin-top: -300px; */
+    width:100%;
+    background-size: cover;
+    background-image: url(../Photos/image1c.png);
+    /* width:'100%'; */
+    border: "7px solid white";
+    
+
+   
+}
+.Release-From-Jail-oppin {
+    font-family: Cormorant Garamond;
+    font-size: 5vw;
+    font-weight: 700;
+    width: 100%;
+
+
+    text-align: center;
+    color: #FFFFFF;
+  
+    padding-top: 30%;
+    padding-bottom: 20%;
+
+
+
+}
+
+@media (max-width:1024px) {
+    .Release-From-Jail-oppin {
+
+        font-size: 40px;
+    }}
+.bail_by_fax_and_email_image-hk-py-faq{
+    background-image: url("../Photos/chairs.jpg");
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(90%);
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+   
+
+}
+.anim-icons-hk-py-faq.full-width-hk-py-faq {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.anim-icons-hk-py-faq {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.bail_by_fax_and_email_image-hk-py-faq .icon-bull-eye-hk-py-faq {
+    position: absolute;
+    right: -210px;
+    top: 0;
+    height: 422px;
+    width: 422px;
+    background-image: url(../Photos/icon-bull-eye-2.png);
+    content: "";
+}
+.anim-icons-hk-py-faq .icon-hk-py-faq {
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+#root{
+    overflow: hidden;
+}
+.icon-dotted-circle-hk-py-faq {
+    position: absolute;
+    left: -250px;
+    top: -40px;
+    -webkit-animation: fa-spin 60s infinite;
+    animation: fa-spin 60s infinite;
+}
+.anim-icons-hk-py-faq .icon-hk-py-faq {
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.icon-dotted-circle-hk-py-faq {
+    width: 500px;
+    height: 500px;
+    background-image: url(../Photos/icon-dotted-circle.png);
+}
+@keyframes fa-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+    
+}
+.bail_by_fax_and_email_image-hk-py-faq::before{
+
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background: #000ec1;
+        background: -o-radial-gradient(center, ellipse, #000ec1 0%, #000c47 100%, #000c47 100%);
+        background: radial-gradient(ellipse at center, #202bad 0%, #000c47 100%, #000c47 100%);
+        content: "";
+        opacity: 0.9;
+    
+}
+.bottom-part-py-faq .second-sub-title-py-faq {
+    display: block;
+    font-size: 36px;
+    line-height: 48px;
+    color: #081245;
+    font-weight: 700;
+}
+.bottom-part-py-faq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2%;
+}
+.complete-div-for-faqs .alignment-faq{
+    display: flex;
+    justify-content: center;
+    margin-left: 14%;
+}
+
+/* //bottom-part */
+.accordion-box-py-faq {
+
+    margin-bottom: 30px;
+    width: 100%;
+    padding:10%;
+    padding-bottom: 10%;
+
+}
+
+
+.accordion-box-py-faq .block-py {
+    position: relative;
+    margin-bottom: 15px;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+    background: #ffffff;
+}
+.accordion-box-py-faq .block-py .acc-btn-py {
+    position: relative;
+    font-size: 18px;
+    padding: 15px 20px;
+    padding-left: 90px;
+    line-height: 30px;
+    color: #001376;
+    font-weight: 600;
+    cursor: pointer;
+    background: #ffffff;
+    font-family: 'Exo', sans-serif;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.accordion-box-py-faq .block-py .acc-btn-py.active {
+    background: #f5f5f5;
+    /* color: #ff4200; */
+}
+.accordion-box-py-faq .block-py .acc-btn-py .icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    background-color: #ffba00;
+    font-size: 14px;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.accordion-box-py-faq .block-py .acc-btn-py.active .icon{
+    background-color: #ff4200;
+}
+.accordion-box-py-faq .block-py .acc-content {
+    position: relative;
+    display: none;
+}
+.accordion-box-py-faq .block-py .acc-content.current {
+    display: block;
+}
+.accordion-box-py-faq .block-py .content {
+    position: relative;
+    padding: 20px 30px;
+}
+.description-para-faq{
+    padding-left: 20px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #555555;
+    font-weight: 400;
+    margin-bottom: 30px;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+
+}
+
+@media (max-width:768px) {
+    .description-para-faq{
+        padding-left: 20px;
+        font-size: 12px;
+        line-height: 30px;
+        color: #555555;
+        font-weight: 400;
+        margin-bottom: 30px;
+        -webkit-transition: all 300ms ease;
+        -o-transition: all 300ms ease;
+        transition: all 300ms ease;
+    
+    }
+    .accordion-box-py-faq .block-py .acc-btn-py {
+        position: relative;
+        font-size: 12px;
+        padding: 2px 6px;
+        padding-left: 90px;
+        line-height: 30px;
+        color: #001376;
+        font-weight: 600;
+        cursor: pointer;
+        background: #ffffff;
+        font-family: 'Exo', sans-serif;
+        transition: all 300ms ease;
+    }
+    
+    .complete-div-for-faqs .alignment-faq{
+        display: inline;
+    }
+    .bottom-part-py-faq .second-sub-title-py-faq {
+   
+        font-size: 18px;
+       
+    }
+    
+
+    .accordion-box-py-faq {
+        position: relative;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+}
+
+.description {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .5s ease-out;
+}
+ 
+.description.open {
+    max-height: 1000px;
+}
+
+/* client-section */
+
+.clients-section-bbp-faq {
+    position: relative;
+    padding: 0 0 20px;
+}
+
+.clients-section-bbp-faq.alternate {
+    padding: 100px 0 70px;
+}
+
+.clients-section-bbp-faq.alternate2 {
+    padding: 100px 0 20px;
+}
+
+.clients-section-bbp-faq.sponsors-outer-bbp-faq {
+    position: relative;
+    margin-bottom: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.clients-section-bbp-faq .sponsors-outer-bbp-faq .owl-dots,
+.clients-section-bbp-faq .sponsors-outer-bbp-faq .owl-nav {
+    display: none;
+}
+
+.client-block-bbp-faq {
+    position: relative;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32%;
+    
+}
+
+.client-block-bbp-faq .image-box-bbp {
+   
+    text-align: center;
+    margin-bottom: 0;
+    /* top: 80px; */
+    width:95%;
+    -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.10);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.10);
+    border: 1px solid transparent;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    padding: 0;
+    margin: 0 !important;
+}
+
+.client-block-bbp-faq .image-box-bbp:hover {
+    border: 1px solid #dddddd;
+    -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.20);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.20);
+}
+
+.client-block-bbp-faq .image-box-bbp img {
+    width: 100%;
+    opacity: 1;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.client-block-bbp-faq .image-box-bbp:hover img {
+    opacity: .70;
+}
+.auto-container-bbp {
+    position: static;
+    /* max-width: 1200px; */
+    /* padding: 0px 15px; */
+    margin: 0 auto;
+    width: 100%;
+}
+.row-bbp-faq {
+    align-items: center;
+    justify-content: center;
+    
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.title-column1-faq{
+    width:25%
+}
+.sec-title-bbp-faq .divider-bbp {
+    position: relative;
+    display: block;
+    width: 68px;
+    height: 5px;
+    background-image: url("../Photos/divider.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+}
+.text-bbp-faq{
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+}
+.title-column2-faq{
+    width:67%;
+    text-align: center;
+
+}
+.client-section-for-faqs{
+    padding-top: 5%;
+}
+.clients-section-bbp-faq .sponsors-outer-bbp-faq {
+    position: relative;
+    margin-bottom: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.clients-section-bbp-faq .sponsors-outer-bbp-faq .owl-dots,
+.clients-section-bbp-faq .sponsors-outer-bbp-faq .owl-nav {
+    display: none;
+}
+.row1-bbp-faq {
+    align-items: center;
+    justify-content: center;
+    
+    display: flex;
+    flex-wrap: wrap;
+
+   
+}
+.client-block-bbp-faq .larger-one{
+    /* width:30% !important; */
+    margin: 10%;
+    padding: 7% 30% !important;
+
+}
+.sec-title-bbp-faq .sub-title {
+    display: block;
+    font-size: 16px;
+    color: #fe00c5;
+    font-weight: 700;
+    font-family: 'Exo', sans-serif;
+    margin-bottom: -15px;
+    margin-top: 35px;
+    padding-bottom:10% !important;
+}
+.theme-btn-bbp-faq {
+    display: inline-block;
+    text-align: center;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    margin-top: 1.5rem ;
+}
+.btn-style-one-bbp-faq {
+    position: relative;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+    padding: 10px 30px;
+    font-weight: 600;
+    background: #001376;
+    overflow: hidden;
+    min-width: 65px;
+    text-decoration: none;
+    margin-bottom: 5%;
+}
+.complete-div-for-faqs .top-part-for-faqs{
+    width: 48%;
+    padding-left: 2%;
+}
+.complete-div-for-faqs .bottom-part-for-faqs{
+    width: 48%;
+    padding-left: 2%;
+}
+
+@media (max-width:934px) {
+    .complete-div-for-faqs .top-part-for-faqs{
+        width: 100%;
+        padding: 2%;
+    }
+    .complete-div-for-faqs .bottom-part-for-faqs{
+        width: 100%;
+        /* padding-left: 2%; */
+    }
+    
+    .row-bbp-faq {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .title-column1-faq {
+        width: 97%;
+        text-align: center;
+    }
+    .title-column2-faq {
+        width: 100%;
+        text-align: center;
+    }
+    .sec-title-bbp-faq .divider-bbp{
+        width:100%;
+    }
+    .text-bbp-faq {
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        padding: 2%;
+    }
+    .bail_by_fax_and_email_image-hk-py-faq{
+        background-image: url("../Photos/chairs.jpg");
+        height: 220px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        filter: brightness(90%);
+        overflow: hidden;
+        width: 100%;
+        text-align: center;
+       
+    
+    }
+}
+
+
+

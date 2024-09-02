@@ -1,0 +1,36 @@
+.table-ss{
+    margin:5%;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-td {
+    border: 1px solid #BFBFBF;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36.67px;
+    /* text-align: left; */
+    padding: 2%;
+
+}
+
+
+
+tr:hover {
+    background-color: #FFF3C7; 
+}
+
+.table-body{
+    background-color: #F8F8F8;
+    
+}
+
+.tr-title{
+    color: #FFAE00;
+    font-family: Cormorant Garamond;
+    font-size: 25px;
+    text-align: center;
+}

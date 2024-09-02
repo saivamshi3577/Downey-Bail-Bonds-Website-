@@ -1,0 +1,680 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700;800;900&amp;family=Exo:wght@300;400;500;600;700;800;900&amp;display=swap");
+
+
+
+.Insurance-license-main-heading {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 140px 0;
+    background: #F5F7FC;
+    background-image: url(../Photos/License-bg-img.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden !important;
+}
+
+.Insurance-license-main-heading .icon-bull-eye-kk {
+    position: absolute;
+    right: -210px;
+    top: 0;
+    height: 422px;
+    width: 422px;
+    background-image: url(../Photos/License-icon-bull-eye.png);
+    content: "";
+}
+
+.Insurance-license-main-heading .icon-dotted-circle-kk {
+    position: absolute;
+    left: -250px;
+    top: -40px;
+    -webkit-animation: fa-spin 60s linear infinite;
+    animation: fa-spin 60s linear infinite;
+}
+
+.icon-dotted-circle-kk {
+    width: 500px;
+    height: 500px;
+    background-image: url(../Photos/License-icon-dotted-circle.png) !important;
+    background-size: cover;
+}
+
+.Insurance-license-main-heading:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #000ec1;
+    background: -o-radial-gradient(center, ellipse, #000ec1 0%, #000c47 100%, #000c47 100%);
+    background: radial-gradient(ellipse at center, #000ec1 0%, #000c47 100%, #000c47 100%);
+    content: "";
+    opacity: .9;
+}
+
+.Insurance-license-main-heading h1 {
+    position: relative;
+    display: block;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 0.5em;
+    text-align: center;
+    color: #fff;
+    /* margin-bottom: 20px; */
+}
+
+.Insurance-license-page-breadcrumb {
+    position: relative;
+}
+
+.Insurance-license-page-breadcrumb li {
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffffff;
+    padding: 0 15px;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+
+.Insurance-license-page-breadcrumb li:after {
+    position: absolute;
+    top: 0px;
+    right: -5px;
+    content: "|";
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.Insurance-license-page-breadcrumb li:last-child::after {
+    display: none;
+}
+
+.Insurance-license-page-breadcrumb li a {
+    color: #ffffff;
+    text-transform: capitalize;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.Insurance-license-page-breadcrumb li a:hover {
+    color: #ffba00;
+}
+
+
+
+/* 2nd-part */
+
+.Fully-licensed-part-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Fully-licensed-part-heading {
+    padding-top: 6%;
+    color: #363636;
+    font-family: "Archivo", sans-serif;
+}
+
+.Fully-licensed-part-para {
+    width: 70%;
+    margin-top: -10px;
+    color: #5c6770;
+    font-family: "Archivo", sans-serif;
+}
+
+.Our-locations-div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+    text-align: left;
+}
+
+.our-locatons-heading {
+    margin-top: 4%;
+    color: #081245;
+    font-size: 28px;
+    font-family: 'Exo', sans-serif;
+}
+
+.our-locations-para {
+    font-family: "Archivo", sans-serif;
+    font-size: 16px;
+    margin-top: -5px;
+    margin-bottom: 3%;
+    color: #5c6770;
+}
+
+.contact-california-div {
+    font-family: "Archivo", sans-serif;
+    padding-inline: 2%;
+    margin-top: -5px;
+}
+
+.contact-california-heading {
+    font-size: 16px;
+    color: #ffba00;
+}
+
+.contact-california-para1 {
+    font-size: 23px;
+    color: #081245;
+    font-weight: 700;
+    /* margin-top: -18px; */
+}
+
+.contact-california-para2 {
+    font-size: 16px;
+    color: #5c6770;
+    line-height: 1.7;
+}
+
+.contact-california-para3 {
+    font-size: 16px;
+    color: #5c6770;
+    line-height: 1.7;
+}
+
+
+
+/* 3rd-part */
+.license-register-form-div {
+    background-color: #f5f6f7;
+    /* width: 95%; */
+}
+
+.license-register-form-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between !important;
+    padding: 10px 10px;
+}
+
+.input-box-kk {
+    display: flex;
+    flex-wrap: wrap;
+    width: 48%;
+    padding-bottom: 15px;
+    #phone::-webkit-outer-spin-button,
+    #phone::-webkit-inner-spin-button{
+        -webkit-appearance: none;
+        margin: 0;
+    }}
+
+.input-box-kk:nth-child(2n) {
+    justify-content: start;
+}
+
+.input-box-kk input {
+    height: 30px;
+    width: 90%;
+    padding: 0 10px;
+    outline: none;
+    border: none;
+}
+
+.input-box-kk label {
+    font-size: 13px;
+    color: #595d60;
+    font-family: "Archivo", sans-serif;
+}
+
+.input-box-kk ::placeholder {
+    font-size: 11px;
+}
+
+.input-box-kk input:is(:focus, :valid) {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.check-box-div {
+    font-size: 13px;
+    line-height: 2;
+    color: #595d60;
+}
+
+.drop-down-div {
+    width: 100%;
+    color: #595d60;
+    font-family: "Archivo", sans-serif;
+}
+
+.drop-down-para {
+    font-size: 13px;
+}
+
+.drop-down-part {
+    height: 30px;
+    width: 100%;
+    text-align: start;
+    color: #595d60;
+    border: none;
+    outline: none;
+}
+
+.drop-down-option {
+    height: 30px !important;
+}
+
+.register-form-button {
+    height: 40px;
+    width: 100%;
+    margin-top: 2%;
+    background-color: #000c47;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.contact-our-california-div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.contact-california-div {
+    width: 35%;
+}
+
+.registerForm-Button {
+    width: 35%;
+}
+
+/* last part */
+
+
+.content-five-description-kk {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.content-five-left-kk {
+    width: 18%;
+    font-weight: 0;
+    /* font-family: "Archivo", sans-serif; */
+    font-family: 'Exo', sans-serif;
+}
+
+.content-five-h3-kk {
+    color: #fe00c5;
+}
+
+.content-five-divider-kk {
+    position: relative;
+    display: block;
+    width: 68px;
+    height: 5px;
+    background-image: url(../Photos/license-divider-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 30px;
+}
+
+.content-five-h2-kk {
+    font-size: 16px;
+}
+
+.content-five-p-kk {
+    color: gray;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.content-five-right-kk {
+    width: 60% !important;
+    padding: 2% !important;
+    display: flex !important;
+    flex-wrap: wrap!important;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.content-five-images-kk,
+.content-five-image {
+    box-shadow: 1px 1px 20px rgb(215, 210, 210);
+    width: 250px;
+    height: 110px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-five-images-kk:hover,
+.content-five-image:hover {
+    box-shadow: 1px 1px 20px rgb(163, 159, 159);
+    filter: brightness(1.1);
+    cursor: pointer;
+}
+
+.clients-button {
+    width: 60%;
+    height: 40px;
+    background-color: #000c47;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+
+
+/* media queries */
+
+
+@media (max-width:1025px) {
+    .Insurance-license-main-heading h1 {
+        font-size: 40px;
+    }
+
+    .Fully-licensed-part-heading {
+        font-size: 30px;
+    }
+
+    .Fully-licensed-page-img {
+        height: 530px;
+        width: 680px;
+    }
+
+    .our-locatons-heading {
+        font-size: 24px;
+
+    }
+
+    .contact-california-para2 {
+        font-size: 14px;
+
+    }
+
+    .contact-california-para3 {
+        font-size: 14px;
+    }
+
+    .input-box-kk label {
+        font-size: 12px;
+    }
+
+    .input-box-kk ::placeholder {
+        font-size: 10px;
+    }
+
+    .drop-down-part {
+        font-size: 12px;
+    }
+
+    .drop-down-para {
+        font-size: 12px;
+    }
+
+    .check-box-div {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width:769px) {
+
+    .Insurance-license-main-heading .icon-bull-eye-kk {
+        background-image: none;
+    }
+    .icon-dotted-circle-kk {
+        background-image: none !important;
+    }
+    .Insurance-license-main-heading h1 {
+        font-size: 30px;
+    }
+
+    .Fully-licensed-part-heading {
+        font-size: 30px;
+    }
+    .contact-our-california-div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .contact-california-div {
+        width: 90%;
+        margin-left: -3%;
+    }
+    .content-five-h2-kk {
+        font-size: 15px;
+    }
+    .content-five-p-kk {
+        font-size: 15px;
+    }
+    .clients-button{
+        width: 30%;
+    }
+    .registerForm-Button {
+        width: 95%;
+    }
+    .contact-our-california-div {
+        justify-content: center;
+        align-items: center;
+    }
+    .Our-locations-div {
+        padding-left: 3%;
+        text-align: left;
+    }
+    .content-five-left-kk {
+        margin-top: 4%;
+        margin-left: 4%;
+    }
+}
+@media (max-width:651px){
+    .license-main-div{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width:426px){
+
+    .Insurance-license-main-heading{
+        width: 100%;
+    }
+    .Insurance-license-main-heading h1 {
+        font-size: 25px;
+    }
+    .Fully-licensed-part-heading {
+        font-size: 25px;
+    }
+    .Fully-licensed-page-img{
+        height: 368px;
+        width: 385px;
+    }
+    .our-locatons-heading {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:321px){
+    .Fully-licensed-page-img{
+        height: 325px;
+        width: 323px;
+    }
+    .clients-button {
+        width: 40%;
+    }
+    .Insurance-license-main-heading h1 {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+/* media screens for last part */
+
+@media screen and (max-width:1400px) {
+
+    .content-five-images-kk,
+    .content-five-image {
+        max-width: 225px !important;
+        height: 170px !important;
+    }
+
+    .content-five-images-kk img {
+        width: 100px !important;
+    }
+
+    .content-five-image img {
+        width: 140px;
+    }
+}
+
+@media screen and (max-width:1180px) {
+
+    .content-five-images-kk,
+    .content-five-image {
+        max-width: 180px !important;
+        height: 120px !important;
+    }
+
+    .content-five-images-kk img {
+        width: 180px !important;
+    }
+
+    .content-five-image img {
+        width: 100px !important;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .content-five-description-kk {
+        flex-wrap: wrap !important;
+    }
+
+    .content-five-left-kk {
+        width: 100%;
+    }
+
+    .content-five-right-kk {
+        width: 100%;
+        /* min-width: none !important; */
+    }
+
+    .content-five-image,
+    .content-five-images-kk {
+        min-width: 250px !important;
+        min-height: 150px !important;
+    }
+
+    .content-five-image img {
+        width: 150px !important;
+    }
+
+    .content-five-images-kk img {
+        width: 250px !important;
+    }
+}
+
+@media screen and (max-width:875px) {
+    .content-five-description-kk {
+        flex-wrap: wrap !important;
+    }
+
+    .content-five-left-kk {
+        width: 100%;
+        min-width: none !important;
+    }
+
+    .content-five-right-kk {
+        width: 650px !important;
+    }
+
+    .content-five-image,
+    .content-five-images-kk {
+        width: 200px !important;
+        min-height: 120px !important;
+    }
+
+    .content-five-image img {
+        width: 120px !important;
+    }
+
+    .content-five-images-kk img {
+        width: 150px !important;
+    }
+}
+
+@media screen and (max-width:625px) {
+    .content-five-right-kk {
+        display: flex;
+        flex-direction: column !important;
+        justify-content: left !important;
+        align-items: left !important;
+    }
+
+    .content-four-description {
+        width: 100% !important;
+        justify-content: center;
+        align-items: center;
+        padding: 5%;
+    }
+
+    .four-desc-p1 {
+        width: auto;
+    }
+}
+
+@media (max-width:376px) {
+    .content-five-h3-kk {
+        width: 200px !important;
+    }
+    .content-five-images-kk img {
+        width: 135px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+    .Fully-licensed-part-div {
+        min-width: 280px;
+    }
+
+    .license-register-form-content {
+        max-height: 380px;
+        overflow: auto;
+    }
+
+    .input-box-kk {
+        margin-bottom: 12px;
+        width: 100%;
+    }
+
+    .input-box-kk:nth-child(2n) {
+        justify-content: space-between;
+    }
+
+}

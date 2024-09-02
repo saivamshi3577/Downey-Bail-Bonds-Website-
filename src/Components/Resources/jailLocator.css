@@ -1,0 +1,267 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* Added */
+}
+
+body {
+    overflow-x: hidden;
+    /* Added */
+}
+
+#courtLocatorImgDiv {
+    background-image: url('../Photos/courtLocatorImg.png');
+    object-fit: cover;
+    width: 100%;
+    height: 305px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#courtHeadingDiv {
+    width: 40%;
+}
+
+#courtHeading {
+    font-family: Cormorant Garamond;
+    font-size: 5vw;
+    font-weight: 700;
+    color: #FFAE00;
+    margin-left: 24%;
+}
+
+#southernCalforniaMainHeading {
+    font-family: Cormorant;
+    font-size: 2.5vw;
+    font-weight: 700;
+    text-align: center;
+    color: #081245;
+    margin-block: 28px;
+}
+
+#sideHeading {
+    font-family: Cormorant;
+    font-size: 2.3vw;
+    font-weight: 700;
+    color: #FFAE00;
+    margin-block: 18px;
+    margin-left: 3%;
+}
+
+
+/* blueBoxDiv */
+
+.blueBoxSideHeadings {
+    font-family: Cormorant;
+    font-size: 2.3vw;
+    font-weight: 700;
+    color: #081245;
+    margin-block: 18px;
+    margin-left: 3%;
+}
+
+#marginAdjustment {
+    margin-top: 90px;
+}
+
+.blueBoxesDiv {
+    display: flex;
+    flex-wrap: wrap;
+    /* padding-inline: 4%; */
+    justify-content: center;
+}
+
+.blueBox {
+    width: 410px;
+    height: 300px;
+    background-color: #081245;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 15px; */
+    margin: 15px;
+}
+
+.blueBox:hover {
+    cursor: pointer;
+    background-color: #0d1124;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    border-radius: 15px;
+}
+
+.boxHeadingInfo {
+    font-size: 1.5vw;
+    color: #FFAE00;
+    text-align: center;
+}
+
+.boxAddress,
+.boxPhone {
+    font-family: Cormorant Garamond;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    margin-block: 8px;
+}
+
+#bondsManHeading {
+    margin-top: 35px;
+    font-family: Cormorant;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60.55px;
+    text-align: center;
+    color: #FFAE00;
+}
+
+#unOrderLists {
+    display: flex;
+    padding-inline: 3%;
+    justify-content: space-evenly;
+}
+
+
+.lineDiv {
+    height: 1.5px;
+    width: 95%;
+    background-color: #FFAE00;
+}
+
+.array1{
+    font-family: Cormorant;
+    font-size: 2vw;
+    font-weight: 500;
+    line-height: 55px;
+    text-align: left;
+    color: #081245;
+}
+
+#underLine {
+    align-items: center;
+    height: 1px;
+    width: 100%;
+    background-color: grey;
+    margin-block: 50px;
+}
+
+#designAndHeading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bottomPartnerLogos {
+    width: 100%;
+    height: 150px;
+}
+
+
+@media only screen and (max-width: 1224px) {
+    #courtLocatorImgDiv {
+        height: 220px;
+    }
+
+    #bondsManHeading {
+        font-size: 3.5vw;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    #southernCalforniaMainHeading {
+        font-size: 3vw;
+    }
+
+    .blueBoxSideHeadings {
+        font-size: 2.5vw;
+    }
+
+    #meetOurPartnerHeading {
+        font-size: 2.2vw;
+        margin-inline: 15px;
+    }
+
+    .equalStarImg {
+        width: 7%;
+    }
+
+    .boxHeadingInfo {
+        font-size: 2.5vw;
+    }
+
+    #underLine {
+        margin-block: 40px;
+    }
+
+    #bottomPartnerLogos {
+        height: 120px;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    #courtLocatorImgDiv {
+        height: 180px;
+    }
+
+    #rightExtendImg {
+        width: 25%;
+    }
+
+    .blueBoxSideHeadings {
+        font-size: 4.5vw;
+    }
+
+    li {
+        font-size: 11px;
+        line-height: 26px;
+    }
+
+    #underLine {
+        margin-block: 30px;
+    }
+
+    .boxHeadingInfo {
+        font-size: 3.2vw;
+    }
+
+    #marginAdjustment {
+        margin-top: 19px;
+    }
+
+    .blueBox {
+        height: 210px;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    #bottomPartnerLogos {
+        height: 75px;
+    }
+}
+
+@media only screen and (max-width: 377px) {
+    #courtLocatorImgDiv {
+        height: 150px;
+    }
+
+    #meetOurPartnerHeading {
+        font-size: 3vw;
+        margin-bottom: 6px;
+    }
+
+    li {
+        font-size: 10px;
+    }
+
+    .boxAddress,
+    .boxPhone {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,206 @@
+.payment-options-content-four{
+    background-image: url(../Photos/5.png);
+    position: relative;
+    background-position: center left 0px 0px;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background: #011372; */
+    /* padding: 85px 0; */
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    height: max-content;
+
+}
+.content-four-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    background-image: url(../Photos/cta-bg.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 700px; */
+}
+.alligned-text{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.content-four-desc-h3{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+.content-four-desc-h2{
+    color: white;
+    font-weight: 800;
+    font-size: 28px;
+}
+.four-desc-p1{
+    width: 350px;
+    color: white;
+    /* letter-spacing: 1px; */
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+
+/***********content five**************/
+
+
+.content-five-payments-option{
+    padding: 5%;
+}
+.content-five-description{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.content-five-left{
+    width: 350px;
+    /* min-width: 350px; */
+}
+.content-five-h3{
+    color: #fe00c5;
+}
+.content-five-divider{
+    position: relative;
+    display: block;
+    width: 68px;
+    height: 5px;
+    background-image: url(../Photos/divider.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 30px;
+}
+.content-five-p{
+    color: gray;
+}
+.content-five-right{
+    width: 68%;
+    /* min-width: 600px; */
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-five-images,
+.content-five-image{
+    box-shadow: 1px 1px 20px rgb(215, 210, 210);
+    width: 280px;
+    height: 150px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-five-images:hover,
+.content-five-image:hover{
+    box-shadow: 1px 1px 20px rgb(163, 159, 159);
+   filter: brightness(1.1);
+   cursor: pointer;
+}
+/* .h2, h2 {
+    font-size: calc(1.325rem + .9vw);
+    all: unset;
+} */
+/**************media screens ******************/
+
+@media screen and (max-width:1400px) {
+    .content-five-images,
+    .content-five-image{
+        max-width: 225px !important;
+        height: 145px !important;
+    }
+    .content-five-images img{
+        width: 225px !important;
+    }
+    .content-five-image img{
+        width: 140px;
+    }
+}
+@media screen and (max-width:1180px) {
+    .content-five-images,
+    .content-five-image{
+        max-width: 180px !important;
+        height: 120px !important;
+    }
+    .content-five-images img{
+        width: 180px !important;
+    }
+    .content-five-image img{
+        width: 100px !important;
+    }
+}
+@media screen and (max-width:1000px) {
+    .content-five-description{
+        flex-wrap: wrap !important;
+    }
+    .content-five-left{
+        width: 100%;
+    }
+    .content-five-right{
+        width: 100%;
+        /* min-width: none !important; */
+    }
+    .content-five-image,
+    .content-five-images{
+        min-width: 250px !important;
+        min-height: 150px !important;
+    }
+    .content-five-image img{
+        width: 150px !important;
+    }
+    .content-five-images img{
+        width: 250px !important;
+    }
+}
+@media screen and (max-width:875px) {
+    .content-five-description{
+        flex-wrap: wrap !important;
+    }
+    .content-five-left{
+        width: 100%;
+        min-width: none !important;
+    }
+    .content-five-right{
+        width: 500px !important;
+    }
+    .content-five-image,
+    .content-five-images{
+        width: 200px !important;
+        min-height: 120px !important;
+    }
+    .content-five-image img{
+        width: 120px !important;
+    }
+    .content-five-images img{
+        width: 190px !important;
+    }
+}
+@media  screen and (max-width:625px) {
+    .content-five-right{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: left !important;
+        align-items: left !important;
+    }
+    .content-four-description{
+        width: 100% !important;
+        justify-content: center;
+        align-items: center;
+        padding: 5%;
+    }
+    .four-desc-p1{
+        width: auto;
+    }
+}
+@media screen and(max-width:375px) {
+    .content-five-h3{
+        width: 200px !important;
+    }
+}

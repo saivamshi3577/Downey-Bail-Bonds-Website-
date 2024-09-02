@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Inter:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}   
+
+.lawyerImage {
+    height:115%;
+    /* width:50%; */
+    object-fit: contain; 
+    
+} 
+
+.yellowframeImage {
+    height:114%;
+    /* width:50%; */
+    object-fit: contain;  
+    position: absolute;  
+    left:9%;  
+    top:5%;
+}
+
+
+.lawyerContractImage{
+    height:500%;
+    width:1000%;
+    object-fit: contain;  
+    /* width:200%; */
+}
+
+.yellowFrame2 {
+    height:98%;
+    /* width:50%; */
+    object-fit: contain;  
+    position: absolute;  
+    left:8%;  
+    top:6%; 
+    /* width:100%; */
+}
+
+.lawyerDiv {
+    width:30%; 
+    margin-left: 3%; 
+    /* padding-top: 2%; */
+    height:80vh;  
+    /* border: 2px solid rgba(255, 174, 0, 1); 
+    border-top-right-radius: 30px; 
+    border-bottom-left-radius: 30px;  */
+    /* padding-top: 5%; */ 
+    margin-top: 2.3%; 
+    position:relative; 
+    z-index: 100;
+} 
+ 
+
+.lawyerContentDiv { 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-evenly; 
+    padding-inline: 3%;    
+    padding-top: 0.8%;
+    
+}  
+
+.contentDiv {
+    width:70%;
+} 
+
+
+
+.whoMayPara, .whoSetsBailPara, .occasionsPara {
+    font-family: "Lora", serif; 
+    font-weight: 400; 
+    font-size: 19px; 
+    color: rgba(0, 0, 0, 1);
+    text-align: start;
+} 
+
+
+.whoMayAcceptDiv,.whoSetsBailAmountsDiv,.occasionsBailDiv {
+    margin-bottom: 2%;
+}
+
+
+.occasionsPara li {
+    margin-left: 3%;
+    width: 100%;
+}
+dl, ol, ul {
+    /* margin-top: 0; */
+    margin-bottom: 1rem;
+    all: unset;
+}
+
+.secondTotalParentDiv {
+    margin-top: 5%;
+}
+.lawyerContractContentDiv {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly; 
+    width:100%;   
+    padding-inline: 3%;
+}
+
+
+.lawyerContractImageDiv {
+    width:30%;  
+    /* margin-left: 3%;  */
+    /* padding-top: 2%; */
+    height:80vh;  
+    /* border: 2px solid rgba(255, 174, 0, 1); 
+    border-top-right-radius: 30px; 
+    border-bottom-left-radius: 30px;  */
+    /* padding-top: 5%; */ 
+    margin-top: 2.3%; 
+    position:relative; 
+    z-index: 100; 
+    margin-right: 5%;
+};
+
+
+
+
+
+
+
+.bottomContentDiv {
+    width:70%;
+}
+
+
+.exampleBailAgreementHeading {
+    font-family: "Cormorant";
+    font-weight: 700; 
+    font-size: 2.5rem; 
+    color:rgba(8, 18, 69, 1); 
+    margin-bottom: 1.5%;
+    text-align: start;
+    margin-left: 25%;
+} 
+
+
+.rightAndSurityHeading {
+    font-family: "Cormorant";
+    font-weight: 700; 
+    font-size: 2.5rem; 
+    color:rgba(8, 18, 69, 1); 
+    margin-bottom: 1.5%;
+    text-align: start;
+    margin-left: 25%;
+}
+
+.exampleBailAgreementPara, .rightAndSurityPara {
+    font-family: "Lora", serif; 
+    font-weight: 400; 
+    font-size: 19px; 
+    color: rgba(0, 0, 0, 1);
+    text-align: start;
+    margin-left: 25%;
+    width: 75%;
+}
+
+.exampleBailAgreementDiv, .rightAndSurityDiv {
+    margin-bottom: 2%;
+}
+
+
+.whoSetsBailHeading {
+    font-family: "Cormorant";
+    font-weight: 700; 
+    font-size: 2.5rem; 
+    color:rgba(8, 18, 69, 1); 
+    margin-bottom: 1.5%;
+    text-align: start;
+}  
+
+.occasionsHeading {
+    font-family: "Cormorant";
+    font-weight: 700; 
+    font-size: 2.5rem; 
+    color:rgba(8, 18, 69, 1); 
+    margin-bottom: 1.5%;
+    text-align: start;
+} 
+
+
+
+.whoMayHeading {
+    font-family: "Cormorant";
+    font-weight: 700; 
+    font-size: 2.5rem; 
+    color:rgba(8, 18, 69, 1); 
+    margin-bottom: 1.5%;
+    text-align: start;
+};  
+.mama{
+    list-style: none;
+}
+
+/* 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
+
+
+
+
+
+@media screen and (max-width: 769px) {
+    .exampleBailAgreementHeading {
+        margin-left: 16%;
+        width: 100%;
+    } 
+    .exampleBailAgreementPara{
+        margin-left: 90px;
+        width: 100%;
+    }
+}

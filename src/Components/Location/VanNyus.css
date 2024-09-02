@@ -1,0 +1,1048 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    /* box-sizing: border-box;  */
+    padding: 0;
+    margin: 0;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Outfit:wght@100..900&display=swap');
+
+.Downy-main-div {
+    height: 100%;
+    width: 100%;
+    /* border: 3px solid red; */
+}
+/* .qustion{
+    display: flex;
+    justify-content: space-between;
+}
+.answer{
+    display: flex;
+    justify-content: space-between;
+}
+.answer img{
+    height: 20px;
+    padding-top: 6px;
+    padding-right: 2px;
+}
+.qustion img{
+    height: 20px;
+    padding-top: 6px;
+    padding-right: 2px;
+} */
+
+.NoPillar{
+    padding-top: 150px;
+}
+
+.los-angeles-container {
+    background-image: url("../Photos/Downy-bg-image.jpg");
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Downy-bail-bonds-heading {
+    color: #fff;
+    font-weight: 700;
+    font-size: 55px;
+    /* line-height: 1.4; */
+    font-family: "Cormorant Garamond", serif;
+}
+
+.Downy-bail-bonds-content {
+    /* padding-top: 3%; */
+    width: 868px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.Downy-bail-bonds-para {
+    color: #FFAE00;
+    font-family: "Outfit", sans-serif;
+    width: 75%;
+    font-size: 20px;
+    text-align: start;
+}
+
+.Downy-bail-bonds-button {
+    /* margin-left: -500px; */
+    margin-top: 30px;
+    padding-bottom: 70px;
+}
+
+.Get-in-touch-button {
+    width: 250px;
+    height: 65px;
+    font-size: 19px;
+    border-radius: 20px;
+    /* gap: 10px; */
+    background: #FFAE00;
+    margin-top: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+    
+}
+.Get-in-touch-button:hover{
+    background-color: #f8d893;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+
+.Bail-process-container {
+    background-color: #00082E;
+    margin-top: -1px;
+    /* padding-bottom: 200px; */
+    background-image: url("../Photos/pluto1.png"), url("../Photos/pluto2.png");
+    background-repeat: no-repeat;
+    background-position: 100% -130px, 0% 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: 320px 600px, 300px 606px;
+    padding-bottom: 10%;
+
+}
+.bail-process-icon{
+    width:40%
+}
+
+.bail-heading-icon {
+    padding: 3%;
+    /* margin-left: -820px; */
+    width: 85%;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    /* padding-left: 40px; */
+}
+#adjustment{
+    display: flex;
+    flex-direction: column;
+}
+
+.bail-process-heading {
+    font-size: 50px;
+}
+
+.Bail-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bail-card-one {
+    margin: 1%;
+    padding: 2%;
+    width: 288px;
+    height: 300px;
+    gap: 10px;
+    opacity: 0px;
+    background: #1F2732;
+    cursor: pointer;
+}
+
+.bail-card-one:hover {
+    background-color: #fff;
+    color: #FFAE00;
+}
+
+.bail-card-one:hover .card-one-heading {
+    color: #FFAE00;
+}
+
+.bail-card-one:hover .card-one-para {
+    color: #FFAE00;
+}
+
+.card-one-heading {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: left;
+    color: #fff;
+}
+
+.card-one-para {
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #D7D7D7;
+    width: 240px;
+}
+
+.horizantal-line {
+    background-color: #01080f;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.bail-card-one:hover .horizantal-line {
+    background-color: #FFAE00;
+}
+
+.card-one-img {
+    width: 46px;
+}
+
+.fourth-card {
+    justify-content: center;
+    display: flex;
+    margin-left: -70px;
+    padding-bottom: 10%;
+}
+
+.bail-card-four:hover {
+    background-color: #fff;
+    color: #FFAE00;
+    cursor: pointer;
+}
+
+.bail-card-four:hover .card-four-heading {
+    color: #FFAE00;
+}
+
+.bail-card-four:hover .card-four-para {
+    color: #FFAE00;
+}
+
+.bail-card-four {
+    padding: 2%;
+    width: 288px;
+    height: 240px;
+    gap: 10px;
+    opacity: 0px;
+    background: #1F2732;
+    margin: 1%;
+}
+
+.card-four-heading {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.card-four-para {
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #D7D7D7;
+}
+
+.card-four-img {
+    width: 46px;
+}
+
+
+
+/* media queries */
+
+
+@media (max-width:1177) {
+    .bail-heading-icon {
+        /* margin-left: -235px; */
+    }
+}
+
+@media (max-width:1026px) {
+    .bail-heading-icon {
+        /* margin-left: -570px; */
+    }
+
+    .bail-process-heading {
+        font-size: 44px;
+    }
+
+    .Get-in-touch-button {
+        width: 238px;
+        height: 64px;
+        font-size: 19px;
+        /* margin-left: 0px; */
+    }
+
+    .Downy-bail-bonds-heading {
+        font-size: 50px;
+    }
+
+    .bail-card-one {
+        width: 240px;
+        height: 240px;
+        padding: 3%;
+        gap: 0px;
+
+    }
+
+    .bail-card-four {
+        width: 240px;
+        height: 240px;
+        padding: 3%;
+        gap: 0px;
+    }
+
+    .card-one-heading {
+        font-size: 16px;
+    }
+
+    .card-one-para {
+        font-size: 13px;
+        width: 230px;
+
+    }
+
+    .card-four-heading {
+        font-size: 16px;
+    }
+
+    .card-four-para {
+        font-size: 13px;
+        width: 230px;
+    }
+
+    .Bail-cards-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+
+        justify-content: center;
+    }
+}
+
+@media (max-width:984px) {
+    .bail-heading-icon {
+        /* margin-left: -292px; */
+    }
+
+    .Downy-bail-bonds-content {
+        /* margin-left: 14%; */
+    }
+}
+
+@media (max-width:769px) {
+    .Downy-bail-bonds-heading {
+        font-size: 36px;
+        margin-block: 8px;
+    }
+    .img,.bail-process-icon{
+        width:15%;
+    }
+    .Downy-bail-bonds-para {
+        width: 73%;
+        font-size: 17px;
+    }
+
+    .Downy-bail-bonds-content {
+        /* margin-left: 14%; */
+    }
+
+    .Get-in-touch-button {
+        width: 195px;
+        height: 62px;
+        font-size: 14px;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width:650px) {
+    .bail-heading-icon {
+        /* margin-left: -248px; */
+    }
+
+    .Bail-process-container {
+        background-image: none;
+    }
+
+    .bail-card-one {
+
+        width: 260px;
+        height: 238px;
+        gap: 10px;
+        opacity: 0px;
+    }
+
+    .card-one-para {
+        font-size: 12px;
+        width: 219px;
+    }
+
+    .bail-card-four {
+
+        width: 260px;
+        height: 238px;
+        gap: 10px;
+        opacity: 0px;
+    }
+
+    .card-four-para {
+        font-size: 12px;
+        width: 219px;
+    }
+}
+
+@media (max-width:592px) {
+    .bail-heading-icon {
+        margin-left: 10px;
+    }
+    #bail-process-heading{
+        font-size: 15px;
+    }
+
+    .Downy-bail-bonds-content {
+        line-height: 1.3;
+        /* margin-left: 14%; */
+    }
+}
+
+@media (max-width:426px) {
+    .Downy-bail-bonds-heading {
+        font-size: 22px;
+    }
+
+    .Downy-bail-bonds-para {
+        width: 73%;
+        font-size: 15px;
+    }
+
+    .Get-in-touch-button {
+        width: 156px;
+        height: 52px;
+        font-size: 13px;
+        margin-left: 0px;
+    }
+
+    .bail-process-heading {
+        font-size: 36px;
+    }
+}
+
+@media (max-width:321px) {
+    .Downy-bail-bonds-para {
+        width: 73%;
+        font-size: 12px;
+    }
+
+    .bail-process-heading {
+        font-size: 15px;
+    }
+
+    .bail-card-one {
+        width: 236px;
+        height: 228px;
+        padding: 4%;
+    }
+
+    .card-one-heading {
+        font-size: 14px;
+    }
+
+    .card-one-img {
+        width: 42px;
+
+    }
+
+    .bail-card-four {
+        width: 236px;
+        height: 228px;
+        padding: 4%;
+    }
+
+    .card-four-heading {
+        font-size: 14px;
+    }
+
+    .card-four-img {
+        width: 42px;
+    }
+}
+
+
+/* the code above belongs to Priya */
+
+
+
+
+
+
+
+
+
+
+
+
+
+#losAngelesMainDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#losAngelesDiv {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#bailBondsHeading {
+    font-family: Cormorant Garamond;
+    font-size: 3.5vw;
+    font-weight: 700;
+    color: #FFAE00;
+    margin-block: 3px;
+}
+
+#pngImg1 {
+    width: 12%;
+    margin-block: 3px;
+}
+
+#bailBondsInfo {
+    font-family: Outfit;
+    font-size: 1.5vw;
+    font-weight: 400;
+    text-align: center;
+    margin-block: 3px;
+    color:#00000082;
+    text-align: start;
+}
+
+
+#bgImageDiv {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../Photos/Background.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#QandADiv {
+    width: 85%;
+    height: 90%;
+    background-color: #00082e;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#justiceImage {
+    width: 30%;
+    height: 95%;
+}
+
+.QandAcolumns {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 5%;
+}
+
+.questionAnswerBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.qustion {
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: #FFAE00;
+}
+
+.answer {
+    font-family: Outfit;
+    /* font-size: 17px; */
+    font-size: 1.1vw;
+
+    font-weight: 400;
+    /* line-height: 28px; */
+    text-align: left;
+    color: #D7D7D7;
+}
+
+#pillerDiv {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    transform: translate(0px, -60px);
+}
+
+#pillarImage {
+    width: 35%
+}
+
+#helpDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    transform: translate(0px,-110px);
+}
+
+#helpDivHeading {
+    font-family: Cormorant Garamond;
+    /* font-size: 40px; */
+    font-size: 2.8vw;
+
+    font-weight: 700;
+
+    color: #161D27;
+    width: 27%;
+    line-height: 40px;
+}
+
+#equalStarDesign{
+    width:5%;
+}
+
+#helpDivContent {
+    font-family: Outfit;
+    /* font-size: 20px; */
+    font-size: 1.5vw;
+
+    font-weight: 400;
+    line-height: 28px;
+    width: 55%;
+    color: #909090;
+}
+
+
+/* Disable component for mobile view */
+@media only screen and (max-width: 767px) {
+    #justiceImage {
+      display: none;
+    }
+    .answer{
+        font-size: 13px;
+    }
+    #pillerDiv{
+        display: none;
+    }
+    #bailBondsInfo{
+        font-size: 15px;
+    }
+    #helpDiv{
+    transform: translate(0px,0px);
+    margin-top: 8px;
+    margin-bottom: 19px;
+    }
+    #losAngelesDiv {
+        width: 80%;
+    }
+    .qustion{
+        font-size: 16px;
+    }    
+  }
+
+@media only screen and (max-width: 716px) {
+  #QandADiv{
+    flex-direction: column;
+    height: fit-content;
+    padding-block: 15px;
+    }
+    #bgImageDiv{
+        height: fit-content;
+        padding-block: 13px;
+    }
+    .QandAcolumns{
+        width: 85%;
+    }
+    .questionAnswerBox{
+        margin-block: 5px;
+    }
+    #helpDivHeading{
+        font-size: 20px;
+        width:40%;
+        margin-top: 4px;
+        margin-bottom: 2px;
+    }
+    #helpDivContent{
+        font-size: 13px;
+        margin-bottom: 4px;
+    }
+    #bailBondsHeading{
+        font-size: 3.5vw;
+    }
+    #equalStarDesign{
+        margin-block: 3px;
+        width: 7%;
+    }
+}
+
+
+
+
+
+
+
+/* the code below belongs to saiCharan */
+.partnersMainDiv {
+    width: 100%;
+    overflow: hidden;
+    transform: translate(0px,-20px);
+}
+
+.partnersMainDiv .imagesWithPartnersDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagesWithPartnersDiv {
+    display: flex;
+
+}
+
+.meetHeading {
+    font-family: "Cormorant Garamond";
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-inline-start: 0.9%;
+    margin-inline-end: 0.9%;
+    color: #161D27;
+}
+
+.partnerImage {
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+}
+
+.logoImage {
+    width: 60%;
+ 
+}
+
+.contactUsWithImagePillarDiv {
+    width: 100vw;
+    background-color: #F2EDE6;
+    /* height:30vw;  */
+    padding-bottom: 3%;
+    position: relative;
+    /* margin-bottom: 10%;  */
+    /* padding-inline-start: -10%; */
+}
+
+
+.weightImageWithContactUs {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.weightImageDiv {
+    width: 30%;
+}
+
+.contactUsDiv {
+    width: 70%;
+}
+
+
+.pillarImage {
+    position: relative;
+    left: 35%;
+    height: 80px;
+    width: 30%;
+    display: inline-block;
+}
+
+.weightImage {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.contactHeading {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: #00054B;
+    /* margin-left: -40%; */
+}
+
+.fillinput {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 2px solid;
+    /* margin-left: 30%; */
+    display: block;
+    /* width:90%;  */
+
+
+}
+
+.fillContent {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgba(0, 2, 75, 0.5);
+    margin-bottom: 3%;
+    display: block;
+
+}
+
+.buttonContentDiv {
+    /* width:50%; */
+    margin-right: 22%;
+}
+
+
+.contentWithLineDiv {
+    margin-bottom: 7%;
+}
+
+.buttonDiv {
+    padding-left: 27%;
+    margin-top: 15%;
+}
+
+.buttonDiv button {
+    background-color: rgba(0, 5, 75, 1);
+    border-radius: 16px;
+    width: 170px;
+    height: 35px;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 0.70rem;
+    border-style: none;
+    display: inline-block;
+    cursor: pointer;
+}
+.buttonDiv button:hover{
+    background-color: #09090d;
+}
+
+.buttonAndAddressDiv {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 3%;
+    /* justify-content:space-between; */
+    /* align-items: center; */
+}
+
+
+
+.addressDiv {
+    margin-bottom: 18.5%;
+}
+
+.contactAndEmailHeading {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 1rem;
+    color: rgba(0, 5, 75, 1);
+}
+
+.underlineHeading {
+    text-decoration: underline solid;
+    color: rgba(0, 5, 75, 1);
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.address {
+    color: rgba(0, 5, 75, 1);
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+
+
+.socials {
+    height: 25px;
+    width: 25px;
+    object-fit: contain;
+    margin-right: 10%;
+}
+
+
+.bottomPillarImage {
+    width: 100vw;
+}
+
+
+.bottomPillar {
+    width: 100vw;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.socialsDiv img:hover{
+    cursor: pointer;
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 760px) {
+    .pillarImage {
+        height: 60px;
+        width: 30%;
+    }
+
+
+    .weightImageDiv {
+        padding-top: 15%;
+        display: none;
+    }
+
+    .contactHeading {
+        font-size: 1.8rem;
+        color: #00054B;
+        margin-left: 36%;
+    }
+
+    /* .buttonContentDiv {
+       
+        margin-right: 28%;
+     }  */
+    .buttonAndAddressDiv {
+        width: 140%;
+        /* background-color: black; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buttonContentDiv {
+        width: 50%;
+    }
+
+    .emailAndAddressDiv {
+        width: 50%;
+        margin-right: 0%;
+    }
+
+
+
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .pillarImage {
+        height: 40px;
+        width: 30%;
+    }
+
+
+    .weightImageDiv {
+        display: none;
+    }
+
+    .contactHeading {
+        font-size: 1.2rem;
+        color: #00054B;
+        margin-left: 39%;
+    }
+
+    .fillContent {
+        margin-left: 8%;
+        font-size: 0.77rem;
+        margin-bottom: 2%;
+        display: block;
+
+    }
+
+    .fillinput {
+        width: 75%;
+        margin-left: 25%;
+    }
+
+    .contentWithLineDiv {
+        margin-bottom: 9%;
+    }
+
+    .buttonDiv {
+        padding-left: 18%;
+        margin-top: 15%;
+    }
+
+    .buttonDiv button {
+        border-radius: 16px;
+        width: 100px;
+        height: 28px;
+        font-weight: 400;
+        font-size: 0.6rem;
+    }
+
+
+    .buttonAndAddressDiv {
+        width: 140%;
+        /* background-color: black; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buttonContentDiv {
+        width: 50%;
+    }
+
+    .emailAndAddressDiv {
+        width: 50%;
+        margin-right: 0%;
+    }
+
+    .contactAndEmailHeading {
+        font-size: 0.8rem;
+        color: rgba(0, 5, 75, 1);
+    }
+
+    .underlineHeading {
+
+        font-size: 0.6rem;
+    }
+
+    .address {
+
+        font-size: 0.6rem;
+    }
+
+
+
+    .socials {
+        height: 20px;
+        width: 20px;
+
+    }
+
+
+}
